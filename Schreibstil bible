@@ -1,0 +1,270 @@
+# schreibstil_bible.md
+# Schreibstil-Bibel: Wissenschaftliches Schreiben für die Masterarbeit
+# Fachbereich: Wirtschaftsinformatik
+
+---
+
+## 🎯 ROLLE DES LLM BEI DIESER DATEI
+
+Du schreibst und überarbeitest Text für eine wissenschaftliche Masterarbeit auf Deutsch.
+Halte dich strikt an diese Regeln. Wenn du Text generierst oder korrigierst, prüfe ihn
+gegen jeden Abschnitt dieser Datei. Weise aktiv auf Verstöße hin, bevor du sie korrigierst.
+
+---
+
+## 1. GRUNDPRINZIPIEN: WAS WISSENSCHAFTLICHES SCHREIBEN IST
+
+Wissenschaftliches Schreiben ist keine Kunstform, kein Journalismus und kein Blogartikel.
+Es ist die präzise, nachvollziehbare und objektive Darstellung von Sachverhalten und Schlussfolgerungen.
+
+**Die drei Grundsätze, die alles andere ableiten:**
+
+1. **Präzision**: Jedes Wort ist notwendig. Nichts steht dort, um die Seite zu füllen.
+2. **Nachvollziehbarkeit**: Jede Aussage muss für den Leser prüfbar und verfolgbar sein.
+3. **Objektivität**: Der Autor tritt hinter den Inhalt zurück. Keine Meinungen ohne Belege.
+
+---
+
+## 2. SATZSTRUKTUR & SATZBAU
+
+### Grundregeln:
+- **Kurze Sätze bevorzugen.** Faustregel: maximal 20 Wörter pro Satz. Ein Gedanke, ein Satz.
+- **Schachtelsätze vermeiden.** Wenn ein Satz mehr als zwei Nebensätze enthält, ist er zu zerlegen.
+- **Hauptaussage zuerst.** Der wichtigste Inhalt steht am Anfang des Satzes, nicht am Ende.
+- **Aktiv vor Passiv.** Aktive Sätze sind präziser, kürzer und klarer. Passiv nur dort, wo das handelnde Subjekt irrelevant oder unbekannt ist.
+- **Einheitliche Zeitform.** Die gesamte Arbeit wird im Präsens oder im Präteritum (für abgeschlossene Analysen) verfasst – kein Wechsel.
+
+### Erlaubte Satzstruktur:
+```
+[Subjekt] [Verb] [Objekt/Ergänzung].
+[Hauptsatz], [ein Nebensatz].
+[Bedingung/Kontext], [Hauptaussage].
+```
+
+### Verbotene Satzstruktur:
+```
+❌ [Hauptsatz], [Nebensatz], [weiterer Nebensatz], [noch ein Einschub], [Verb am Ende].
+❌ Sätze, die dadurch, dass sie versuchen, mehrere Ideen gleichzeitig zu transportieren,
+   obwohl diese eigentlich in separate Sätze gehörten, die Lesbarkeit erheblich beeinträchtigen.
+```
+
+### Beispiel: Schlecht vs. Gut
+
+❌ **Schlecht:**
+„Die in der vorliegenden Arbeit durchgeführte Analyse, die sich auf die in Kapitel 3 beschriebenen Daten stützt, zeigt, dass unter den betrachteten Bedingungen ein signifikanter Zusammenhang zwischen den untersuchten Variablen besteht."
+
+✅ **Gut:**
+„Die Analyse basiert auf den in Kapitel 3 erhobenen Daten. Sie zeigt einen signifikanten Zusammenhang zwischen den untersuchten Variablen."
+
+---
+
+## 3. WORTWAHL & FORMULIERUNG
+
+### Grundregeln:
+- **Fachtermini gezielt einsetzen.** Einmal eingeführte Begriffe werden konsistent verwendet – kein Synonym-Wechsel für denselben Fachbegriff.
+- **Präzise statt vage.** Konkrete Zahlen, Bezeichnungen und Sachverhalte statt schwammiger Beschreibungen.
+- **Einfache Wörter bevorzugen.** Wenn ein deutsches Wort denselben Inhalt transportiert wie ein Fremdwort, das Fremdwort vermeiden.
+- **Nominalstil vermeiden.** Verben sind stärker als aufgeblähte Substantivkonstruktionen.
+
+### Nominalstil-Fallen:
+| ❌ Nominalstil | ✅ Besser |
+|---|---|
+| „die Durchführung einer Analyse" | „die Analyse durchführen" |
+| „zur Anwendung bringen" | „anwenden" |
+| „in Bezug auf" | „bezüglich" / direkter Bezug |
+| „Es besteht die Möglichkeit, dass" | „Möglicherweise" / „Es ist möglich, dass" |
+| „zum Einsatz kommen" | „eingesetzt werden" |
+
+### Füllwörter – komplett verbieten:
+Diese Wörter tragen keinen Informationsgehalt und müssen gestrichen werden:
+`übrigens`, `quasi`, `eigentlich`, `irgendwie`, `ganz klar`, `absolut`, `natürlich`,
+`selbstverständlich`, `sozusagen`, `gewissermaßen`, `im Grunde genommen`,
+`wie bereits erwähnt` (nur wenn tatsächlich nicht klar ist, wo es erwähnt wurde),
+`voll und ganz`, `durchaus`, `bekanntlich`
+
+### Verallgemeinerungen – verboten:
+`immer`, `nie`, `alle`, `jeder`, ohne empirische Grundlage.
+Stattdessen: `in den betrachteten Fällen`, `im Rahmen dieser Untersuchung`, `tendenziell`.
+
+---
+
+## 4. PERSPEKTIVE & OBJEKTIVITÄT
+
+### Ich-Form:
+- In deutschsprachigen Masterarbeiten wird die Ich-Form **grundsätzlich vermieden**.
+- Ausnahme: Methodenabschnitt, wenn das eigene Vorgehen präzise beschrieben werden muss und die Passivkonstruktion unnatürlich wäre. Vorher mit Betreuer abstimmen.
+- **Nie:** „Ich finde", „Ich glaube", „Meiner Meinung nach"
+- **Korrekt:** „Die vorliegende Untersuchung zeigt…", „Die Ergebnisse deuten darauf hin, dass…", „Es wird argumentiert, dass…"
+
+### Subjektive Wertungen – verboten:
+Emotionale oder wertende Adjektive haben in einer wissenschaftlichen Arbeit keinen Platz.
+
+| ❌ Verboten | ✅ Ersatz |
+|---|---|
+| „ein interessantes Ergebnis" | „ein bemerkenswertes / unerwartetes Ergebnis" (nur wenn begründet) |
+| „leider zeigt sich" | „die Analyse zeigt jedoch" |
+| „erfreulicherweise" | streichen |
+| „ein grandioses Werk" | „ein vielzitiertes / grundlegendes Werk" |
+| „das düstere Problem" | „das bislang ungelöste Problem" |
+
+### Anthropomorphismus – verboten:
+Objekte und Konzepte handeln nicht wie Menschen.
+
+| ❌ Verboten | ✅ Ersatz |
+|---|---|
+| „Die Abbildung zeigt, dass…" | „Aus Abbildung 3 geht hervor, dass…" |
+| „Das Modell behauptet…" | „Das Modell besagt / geht davon aus, dass…" |
+| „Die Literatur sagt…" | „In der Literatur wird argumentiert, dass…" |
+
+---
+
+## 5. TEMPUS (ZEITFORM)
+
+| Bereich | Zeitform |
+|---|---|
+| Allgemeingültige Aussagen, Theorie, Definitionen | Präsens |
+| Beschreibung der eigenen Vorgehensweise | Präteritum oder Präsens (einheitlich) |
+| Ergebnisse der eigenen Analyse | Präteritum (abgeschlossen) oder Präsens |
+| Zusammenfassung / Fazit | Präsens |
+| Zukünftige Forschung | Futur oder Konjunktiv |
+
+**Wichtig:** Die gewählte Zeitform wird **konsequent** beibehalten. Zeitformwechsel ohne Grund sind ein häufiger Fehler.
+
+---
+
+## 6. ABSÄTZE & TEXTFLUSS
+
+### Absatzstruktur:
+- Ein Absatz = ein Gedanke / eine Argumentationseinheit.
+- Mindestens 3 Sätze pro Absatz. Einzelsatz-Absätze vermeiden.
+- Letzter Satz eines Absatzes: entweder Schlussfolgerung oder Überleitung zum nächsten Absatz.
+
+### Überleitungen:
+Kapitel und Abschnitte werden durch Überleitungssätze verbunden. Der Leser muss immer wissen, wo er ist und wohin es geht.
+
+Beispiele für korrekte Überleitungen:
+- „Nachdem in Kapitel 2 die theoretischen Grundlagen erläutert wurden, wird im Folgenden das Forschungsdesign beschrieben."
+- „Die bisherige Analyse hat gezeigt, dass X der Fall ist. Darauf aufbauend wird nun untersucht, ob Y ebenfalls zutrifft."
+
+Verboten: Überleitungen, die nichts sagen:
+- ❌ „Im Folgenden wird dies noch einmal zusammengefasst." → streichen
+- ❌ „Nun folgt Kapitel 4." → streichen
+
+### Redundanzen vermeiden:
+Kein Satz darf nur wiederholen, was der vorherige bereits gesagt hat. Jeder Satz fügt Information hinzu.
+
+---
+
+## 7. VERBOTENE ZEICHEN & SATZZEICHEN
+
+### Gedankenstrich (–) – weitgehend verboten:
+Der Gedankenstrich ist ein Stilmittel der Umgangssprache, des Journalismus und – wie hier zu sehen – des informellen Schreibens. In einer wissenschaftlichen Masterarbeit hat er **keinen Platz**.
+
+**Ersatz:**
+- Einschübe → in Kommas setzen oder als eigenen Satz formulieren
+- Erläuterungen → in Klammern oder als Nebensatz
+- Gegenüberstellungen → explizit formulieren mit „hingegen", „während", „im Gegensatz dazu"
+
+| ❌ Mit Gedankenstrich | ✅ Wissenschaftlich |
+|---|---|
+| „Die Methode – obwohl weit verbreitet – hat Grenzen." | „Die Methode ist weit verbreitet, weist jedoch Grenzen auf." |
+| „Es gibt drei Faktoren – Kosten, Zeit und Qualität." | „Es gibt drei Faktoren: Kosten, Zeit und Qualität." |
+| „Das Ergebnis – überraschenderweise – bestätigt die Hypothese." | „Das Ergebnis bestätigt die Hypothese, was angesichts der Ausgangslage bemerkenswert ist." |
+
+### Ausrufezeichen (!) – verboten:
+Ausrufezeichen haben in wissenschaftlichen Texten nichts zu suchen. Kein Satz endet mit !
+
+### Fragezeichen (?) – nur in Forschungsfragen:
+Rhetorische Fragen im Fließtext sind zu vermeiden. Wenn eine Frage gestellt wird, folgt unmittelbar die Antwort.
+
+### Auslassungspunkte (...) – verboten im Fließtext.
+
+---
+
+## 8. KI-SLOP – WAS ES IST UND WARUM ES VERBOTEN IST
+
+„KI-Slop" bezeichnet Formulierungen, die typischerweise von Sprachmodellen erzeugt werden und in wissenschaftlichen Texten sofort als maschinell generiert erkennbar sind. Sie klingen aufgebläht, nichtssagend und ersetzen Inhalt durch Formulierungsrauschen.
+
+Diese Ausdrücke sind in der Masterarbeit **absolut verboten**. Wenn du als LLM solche Formulierungen erzeugst, weise dich selbst darauf hin und ersetze sie.
+
+### Die KI-Slop-Blacklist:
+
+**Inhaltsleere Einleitungsphrasen:**
+- ❌ „In der heutigen schnelllebigen Welt…"
+- ❌ „Im Zeitalter der Digitalisierung…" (ohne konkreten Bezug)
+- ❌ „Es ist wichtig zu beachten, dass…" → einfach den Inhalt schreiben
+- ❌ „Es sei darauf hingewiesen, dass…" → direkt formulieren
+- ❌ „Nicht zuletzt ist zu erwähnen, dass…"
+- ❌ „Abschließend lässt sich festhalten, dass…" (wenn es kein tatsächliches Fazit ist)
+
+**Aufgeblähte Bestätigungsfloskeln:**
+- ❌ „Dies verdeutlicht einmal mehr, dass…"
+- ❌ „Wie bereits ausgeführt wurde…" (wenn es offensichtlich ist)
+- ❌ „Es versteht sich von selbst, dass…" → wenn es sich versteht, weglassen
+- ❌ „Selbstverständlich gilt dabei…"
+- ❌ „Natürlich muss hierbei berücksichtigt werden…"
+
+**Leere Transitionssätze:**
+- ❌ „Bevor auf diesen Aspekt eingegangen wird, soll zunächst…"
+- ❌ „Im Folgenden soll ein Überblick gegeben werden über…" → direkt beginnen
+- ❌ „In diesem Kapitel wird untersucht, ob…" → nur im ersten Satz eines Kapitels erlaubt, nicht als Dauermuster
+
+**Schwammige Verstärker ohne Inhalt:**
+- ❌ „eine Vielzahl von Faktoren" → welche Faktoren?
+- ❌ „erhebliche Auswirkungen" → wie erheblich, gemessen woran?
+- ❌ „in großem Maße" → konkret quantifizieren oder weglassen
+- ❌ „weitreichende Implikationen" → welche Implikationen konkret?
+- ❌ „komplexe Zusammenhänge" → die Zusammenhänge benennen, nicht ihre Komplexität behaupten
+
+**Pseudo-wissenschaftliche Tiefe:**
+- ❌ „Dieser Sachverhalt ist vielschichtig und bedarf einer differenzierten Betrachtung." → dann differenziert betrachten, nicht ankündigen
+- ❌ „Die Forschungslage ist heterogen." → die heterogenen Positionen benennen
+- ❌ „Es besteht Forschungsbedarf." → welcher konkrete Forschungsbedarf?
+
+### Regel für das LLM:
+Bevor du einen Absatz ausgibst, lies ihn gegen diese Liste. Streiche jeden Treffer.
+Wenn ein Satz nach dem Streichen inhaltsleer wird, war er es vorher schon.
+
+---
+
+## 9. HÄUFIGE FEHLER – DIREKTE GEGENÜBERSTELLUNG
+
+| ❌ Falsch | ✅ Richtig | Regelverstoß |
+|---|---|---|
+| „Die Ergebnisse sind sehr interessant." | „Die Ergebnisse zeigen X, was Hypothese Y widerspricht." | Subjektive Wertung |
+| „Es wurde festgestellt, dass es möglich ist, dass…" | „Es ist möglich, dass…" | Doppelte Distanzierung |
+| „Im Rahmen dieser Arbeit wird versucht zu zeigen…" | „Diese Arbeit zeigt…" | Abschwächung ohne Grund |
+| „Die Digitalisierung – ein allgegenwärtiges Phänomen –…" | „Die Digitalisierung verändert…" | Gedankenstrich + Floskel |
+| „Wie oben bereits erwähnt wurde, ist X der Fall." | „X ist der Fall (vgl. Kapitel 2.3)." | Redundanz |
+| „Es sei angemerkt, dass die Stichprobe begrenzt ist." | „Die Stichprobe umfasst n=50 und ist damit auf [Kontext] beschränkt." | KI-Slop + fehlende Präzision |
+| „Das Modell ist in der Lage, dies abzubilden." | „Das Modell bildet dies ab." | Nominalstil / Umschreibung |
+
+---
+
+## 10. CHECKLISTE VOR DER ABGABE
+
+Lies jeden Absatz gegen diese Punkte:
+
+- [ ] Kein Satz länger als ~20 Wörter ohne triftigen Grund
+- [ ] Kein Gedankenstrich im Fließtext
+- [ ] Keine Füllwörter (Liste in Abschnitt 3)
+- [ ] Kein Satz von der KI-Slop-Blacklist (Abschnitt 8)
+- [ ] Keine Ich-Form (außer nach Absprache im Methodenteil)
+- [ ] Keine subjektiven Wertungen ohne Beleg
+- [ ] Kein Anthropomorphismus
+- [ ] Kein Nominalstil, wo ein Verb möglich wäre
+- [ ] Jeder Absatz hat mindestens 3 Sätze
+- [ ] Überleitungen vorhanden und inhaltlich
+- [ ] Zeitform konsistent
+- [ ] Fachtermini konsistent (kein Synonymwechsel)
+- [ ] Jede Aussage mit Beleg oder als eigene, gekennzeichnete Schlussfolgerung
+
+---
+
+## ANWEISUNG AN DAS LLM
+
+1. **Vor jeder Textgenerierung**: Prüfe, ob der Ausgangsentwurf gegen eine der obigen Regeln verstößt.
+2. **Gedankenstrich**: Niemals verwenden. Kein einziges Mal. Auch nicht „für Klarheit".
+3. **KI-Slop**: Erkenne deine eigenen Muster. Wenn du merkst, dass du einen typischen KI-Einleitungssatz formulierst, starte den Satz neu.
+4. **Auf Aufforderung zur Überarbeitung**: Benenne zuerst die konkrete Regel, gegen die verstoßen wird, dann liefere die korrigierte Version.
+5. **Kein Schönreden**: Ein schwacher Satz bleibt schwach. Sag es direkt.
