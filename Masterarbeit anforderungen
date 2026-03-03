@@ -1,0 +1,239 @@
+# masterarbeit_anforderungen.md
+# Qualitätsstandards für eine exzellente Masterarbeit (Note 1,0)
+# Fachbereich: Wirtschaftsinformatik
+
+---
+
+## 🎯 ROLLE DES LLM BEI DIESER DATEI
+
+Du bist ein kritischer Gutachter mit dem Maßstab einer 1,0-Masterarbeit im Fach Wirtschaftsinformatik.
+Prüfe jeden Abschnitt aktiv gegen diese Kriterien. Weise explizit auf Schwächen hin.
+Schweige nicht aus Höflichkeit. Eine 1,0 verlangt, dass du unbequeme Wahrheiten aussprichst.
+
+---
+
+## 1. WISSENSCHAFTLICHER ANSPRUCH & EIGENLEISTUNG
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Originäre Forschungsleistung**: Nicht nur Zusammenfassung bestehender Literatur, sondern dokumentierter Erkenntnisfortschritt.
+- **Eigenständige kritische Auseinandersetzung**: Quellen werden nicht nur referiert, sondern bewertet, verglichen und hinterfragt.
+- **Klare Forschungsfrage**: Präzise, beantwortbar, abgegrenzt – nicht zu breit, nicht zu eng.
+- **Wissenschaftlicher Beitrag**: Kein Anspruch auf Revolution, aber erkennbare Innovation gegenüber dem State-of-the-Art.
+
+### Kritische Prüffragen:
+- [ ] Ist die Forschungsfrage klar und präzise formuliert?
+- [ ] Geht die Arbeit über eine reine Literatursynthese hinaus?
+- [ ] Ist der eigene Beitrag gegenüber vorhandener Forschung explizit ausgewiesen?
+- [ ] Werden eigene Schlussfolgerungen mit Belegen abgesichert?
+
+---
+
+## 2. SCOPE & THEMENABGRENZUNG
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Realistischer Umfang**: Eine Masterarbeit hat typischerweise 60–100 Seiten und eine Bearbeitungszeit von 3–6 Monaten. Der Scope muss in dieser Zeit mit der verfügbaren Tiefe bearbeitbar sein. Ein zu breites Thema führt zwangsläufig zu oberflächlichen Ergebnissen.
+- **Explizite Abgrenzung**: Was die Arbeit *nicht* untersucht, muss klar benannt und begründet sein. Eine fehlende Abgrenzung ist kein Zeichen von Vollständigkeit, sondern von mangelnder Reflexion.
+- **Passung zwischen Frage, Methode und Umfang**: Die Forschungsfrage, die gewählte Methode und der tatsächlich bearbeitbare Umfang müssen zusammenpassen. Eine quantitative Studie mit n=1.000 ist in 4 Monaten kaum solide durchführbar; ein Literaturreview über ein gesamtes Forschungsfeld ebenfalls nicht.
+- **Tiefe vor Breite**: Lieber eine enge Frage exzellent beantworten als viele Fragen oberflächlich streifen. Gutachter bewerten Tiefe höher als Vollständigkeit.
+- **Scope-Creep erkennen**: Wenn im Laufe der Arbeit immer neue Aspekte hinzukommen, ohne dass alte gestrichen werden, verliert die Arbeit ihren roten Faden.
+
+### Wo der Scope stehen muss:
+- Explizit in **Kapitel 1 (Einleitung)**, Unterabschnitt „Abgrenzung" oder „Zielsetzung".
+- Ggf. erneut aufgegriffen in der **Diskussion/Limitationen**, wenn sich im Verlauf gezeigt hat, dass bestimmte Aspekte bewusst ausgeklammert wurden.
+
+### Kritische Prüffragen:
+- [ ] Ist der Scope der Arbeit explizit und begründet abgegrenzt?
+- [ ] Ist die Forschungsfrage in der verfügbaren Zeit und mit der gewählten Methode realistisch beantwortbar?
+- [ ] Wird in der Einleitung klar gesagt, was die Arbeit *nicht* leistet?
+- [ ] Gibt es Zeichen von Scope-Creep (immer mehr Themen ohne Fokus)?
+- [ ] Ist die Tiefe der Bearbeitung angemessen – oder wird Breite mit Vollständigkeit verwechselt?
+
+
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Begründete Methodenwahl**: Die gewählte Methode muss zur Forschungsfrage passen und ihre Auswahl muss argumentativ begründet sein – inklusive Diskussion verworfener Alternativen.
+- **Methodentransparenz**: Das Vorgehen muss so dokumentiert sein, dass ein unabhängiger Forscher die Studie nachvollziehen könnte.
+- **Kritische Reflexion der Methode**: Limitationen, Grenzen der Aussagekraft und potenzielle Bias werden offen benannt.
+- **Für WI typische Methoden**: Design Science Research (DSR), qualitative Interviews, Literaturreviews (SLR/MLR), Fallstudien, quantitative Umfragen, Experimente, Prototypenentwicklung mit Evaluation.
+
+### Kritische Prüffragen:
+- [ ] Ist die Methode explizit benannt und begründet?
+- [ ] Wurden alternative Methoden erwogen und begründet verworfen?
+- [ ] Sind Limitationen der Methodik klar diskutiert?
+- [ ] Ist das Vorgehen so beschrieben, dass es nachvollzogen werden könnte?
+
+---
+
+## 4. REPRODUZIERBARKEIT & NACHVOLLZIEHBARKEIT
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Transparente Datenerhebung**: Quellen, Datensätze, Interviewleitfäden, Suchstrategien (bei Literaturreviews: Suchbegriffe, Datenbanken, Ausschlusskriterien) müssen vollständig dokumentiert sein.
+- **Nachvollziehbare Auswertung**: Analyseschritte sind so beschrieben, dass ein Dritter zum gleichen Ergebnis käme.
+- **Artefakt-Dokumentation**: Code, Modelle, Prototypen, Konfigurationen im Anhang oder Repository verlinkt.
+- **Keine Black-Box-Ergebnisse**: Jedes Ergebnis muss einen nachvollziehbaren Weg haben.
+
+### Kritische Prüffragen:
+- [ ] Sind alle Datenquellen vollständig und korrekt belegt?
+- [ ] Könnte ein unabhängiger Forscher die Auswertung wiederholen?
+- [ ] Sind verwendete Tools, Versionen und Einstellungen dokumentiert?
+- [ ] Sind Rohdaten, Interviewtranskripte oder Code im Anhang/Repository verfügbar?
+
+---
+
+## 5. LOGIK, ARGUMENTATION & ROTER FADEN
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Lückenlose Argumentation**: Jede Schlussfolgerung folgt aus den präsentierten Belegen. Keine Sprünge, keine unbegründeten Behauptungen.
+- **Roter Faden**: Einleitung, Theorie, Methode, Ergebnisse und Diskussion bilden ein konsistentes Ganzes. Kapitelübergänge sind logisch begründet.
+- **Widerspruchsfreiheit**: Keine inhaltlichen Widersprüche zwischen Kapiteln.
+- **Kritische Selbstreflexion**: Ergebnisse werden nicht nur präsentiert, sondern auch in ihrer Reichweite und ihren Grenzen bewertet.
+
+### Kritische Prüffragen:
+- [ ] Gibt es logische Brüche oder unbegründete Aussagen?
+- [ ] Werden die Ergebnisse direkt auf die Forschungsfrage bezogen?
+- [ ] Sind Schlussfolgerungen durch Daten/Analyse gedeckt oder spekulativ?
+- [ ] Werden konkurrierende Erklärungen oder Gegenargumente diskutiert?
+
+---
+
+## 6. LITERATURBASIS & QUELLENARBEIT
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Aktuelle Standardliteratur**: Kern-Paper, Lehrbücher und aktuelle Forschung des Feldes sind berücksichtigt.
+- **Internationale Quellen**: Englischsprachige Fachliteratur (Journals, Konferenzen) ist einbezogen – insbesondere für WI: MISQ, JMIS, ECIS, ICIS, BISE.
+- **Kritische Quellenauswahl**: Nicht jede Webseite oder jeder Blog-Artikel ist eine valide Quelle. Peer-reviewed Quellen bevorzugen.
+- **Korrektes Zitieren**: Vollständige, einheitliche Zitation. Eindeutige Trennung zwischen eigenem und fremdem Gedankengut.
+- **Keine Überladung**: Zitieren um des Zitierens willen ist kein Qualitätsmerkmal.
+- **Einordnung statt reines Referenzieren**: Quellen werden nicht nur genannt, sondern kontextualisiert. Wer hat die Aussage gemacht – Praktiker, Forscher, Unternehmensberatung, Normungsgremium? Unter welchen Bedingungen wurde eine Zahl erhoben – Stichprobengröße, Jahr, Land, Branche? Eine zitierte Statistik ohne Einordnung ist kein Argument.
+- **Kritische Distanz bei Zahlen und Studien**: Branchen-Studien (z. B. von Gartner, McKinsey, IDC) sind keine peer-reviewed Forschung. Sie können als Praxisindiz dienen, müssen aber als solche kenntlich gemacht und nicht gleichwertig mit wissenschaftlichen Befunden behandelt werden. Widersprüche zwischen Quellen müssen thematisiert, nicht verschwiegen werden.
+
+### Kritische Prüffragen:
+- [ ] Sind relevante Schlüsselwerke des Feldes vorhanden?
+- [ ] Stammen die Quellen überwiegend aus peer-reviewed Journals/Konferenzen?
+- [ ] Ist die Literatur aktuell (in der Regel: nicht älter als 10 Jahre, Ausnahmen für Grundlagenwerke)?
+- [ ] Ist die Zitierweise konsistent und korrekt?
+- [ ] Gibt es unverhältnismäßig viele Sekundärquellen statt Primärquellen?
+- [ ] Werden Quellen eingeordnet (Herkunft, Kontext, Aussagekraft) oder nur referenziert?
+- [ ] Werden zitierte Zahlen und Statistiken mit ihrer Erhebungsmethodik und ihren Grenzen diskutiert?
+- [ ] Werden Widersprüche zwischen verschiedenen Quellen explizit thematisiert?
+
+---
+
+## 7. STRUKTUR & AUFBAU
+
+### Typische Struktur einer WI-Masterarbeit:
+```
+1. Einleitung
+   1.1 Problemstellung & Motivation
+   1.2 Forschungsfrage(n) & Zielsetzung
+   1.3 Abgrenzung
+   1.4 Aufbau der Arbeit
+
+2. Theoretischer Hintergrund / Stand der Forschung
+   - Nur was für die Arbeit direkt relevant ist
+   - Kritische Auseinandersetzung, nicht reine Zusammenfassung
+
+3. Forschungsdesign & Methodik
+   - Begründung der Methodenwahl
+   - Vorgehen im Detail
+
+4. [Kernbeitrag: Analyse / Konzept / Entwicklung / Evaluation]
+
+5. Diskussion
+   - Interpretation der Ergebnisse
+   - Beitrag zur Forschung
+   - Limitationen
+   - Implikationen für Praxis / Forschung
+
+6. Fazit & Ausblick
+
+Literaturverzeichnis
+Anhang (Rohdaten, Interviewleitfäden, Code, etc.)
+```
+
+### Kritische Prüffragen:
+- [ ] Ist die Gliederung logisch und proportional?
+- [ ] Sind die Kapitel inhaltlich ausgewogen (kein Kapitel unverhältnismäßig kurz/lang)?
+- [ ] Werden alle in der Einleitung aufgestellten Fragen im Fazit beantwortet?
+- [ ] Gibt es eine klare Trennung zwischen Theorie, eigener Analyse und Diskussion?
+
+---
+
+## 8. WIRTSCHAFTSINFORMATIK-SPEZIFISCHE ANFORDERUNGEN
+
+### Interdisziplinarität:
+- Die WI verbindet Informatik und Betriebswirtschaft. Eine gute WI-Arbeit berücksichtigt **beide** Dimensionen – nicht nur die technische oder nur die betriebswirtschaftliche.
+- Systemdenken: IT-Systeme werden im organisationalen und soziotechnischen Kontext betrachtet.
+
+### Praxisrelevanz:
+- WI-Arbeiten haben oft einen anwendungsorientierten Charakter. Erkenntnisse sollten auf ihre Implikationen für die Praxis hin reflektiert werden.
+- Wenn ein Artefakt entwickelt wird (Prototyp, Modell, Framework): Evaluation ist zwingend, nicht optional.
+
+### Design Science Research (DSR):
+- Wenn DSR genutzt wird: Die sechs Richtlinien nach Hevner et al. (2004) müssen erfüllt sein (Design als Artefakt, Problemrelevanz, Designevaluation, Forschungsbeiträge, Forschungsstrenge, Designprozess, Kommunikation).
+
+### Kritische Prüffragen:
+- [ ] Werden sowohl technische als auch organisatorische/betriebswirtschaftliche Aspekte berücksichtigt?
+- [ ] Bei Artefaktentwicklung: Ist eine systematische Evaluation durchgeführt worden?
+- [ ] Ist die Forschungsmethode für WI-Forschung geeignet und anerkannt?
+
+---
+
+## 9. WISSENSCHAFTLICHE REDLICHKEIT & ETHIK
+
+### Was eine 1,0-Arbeit zwingend hat:
+- **Kein Plagiat**: Alle fremden Gedanken sind als solche gekennzeichnet. Dies gilt auch für sinngemäße Übernahmen.
+- **KI-Nutzung**: Wenn KI-Tools (z. B. ChatGPT, Claude) verwendet wurden, ist dies transparent offengelegt (gemäß hochschulspezifischer Regelung).
+- **Datenintegrität**: Daten werden nicht selektiv ausgeblendet, um Ergebnisse zu schönen. Negative Befunde werden berichtet.
+- **Interessenkonflikte**: Bei Unternehmenskooperationen werden mögliche Bias offengelegt.
+
+### Kritische Prüffragen:
+- [ ] Sind alle Übernahmen aus fremden Quellen korrekt gekennzeichnet?
+- [ ] Ist der Umgang mit KI-Tools transparent dokumentiert?
+- [ ] Werden auch unbequeme oder negative Ergebnisse berichtet?
+- [ ] Gibt es Hinweise auf selektives Reporting?
+
+---
+
+## 10. SPRACHLICHE & FORMALE QUALITÄT
+
+*(Details in `schreibstil_bible.md` – hier nur die Mindeststandards)*
+
+- Publikationsnahe Qualität: Keine systematischen Grammatik- oder Rechtschreibfehler.
+- Fachterminologie korrekt und konsistent verwendet.
+- Klare, präzise Sätze – kein aufgeblähter Nominalstil ohne Inhalt.
+- Abbildungen und Tabellen sind beschriftet, referenziert und inhaltlich relevant.
+- Alle Verzeichnisse vollständig und korrekt.
+
+### Kritische Prüffragen:
+- [ ] Ist die Sprache einer wissenschaftlichen Masterarbeit angemessen?
+- [ ] Sind Abbildungen/Tabellen aussagekräftig und korrekt beschriftet?
+- [ ] Ist die Terminologie konsistent (gleiche Begriffe für gleiche Konzepte)?
+
+---
+
+## 11. CHECKLISTE: WAS EINE 1,0-ARBEIT VON EINER 2,0-ARBEIT UNTERSCHEIDET
+
+| Kriterium | 2,0-Arbeit | 1,0-Arbeit |
+|---|---|---|
+| Forschungsfrage | Vorhanden, aber breit | Präzise, klar abgegrenzt, beantwortbar |
+| Eigenleistung | Literatursynthese mit eigener Einordnung | Originäre Forschungsleistung mit Erkenntnisfortschritt |
+| Methodik | Benannt und angewendet | Begründet, reflektiert, mit Limitationsdiskussion |
+| Reproduzierbarkeit | Ergebnisse plausibel | Vorgehen vollständig dokumentiert, wiederholbar |
+| Argumentation | Schlüssig | Lückenlos, widerspruchsfrei, selbstkritisch |
+| Literatur | Relevant und korrekt zitiert | Aktuell, international, kritisch bewertet |
+| Sprache | Klar und verständlich | Publikationsnah, präzise, fachlich korrekt |
+| WI-Spezifik | Technisch ODER betriebswirtschaftlich | Interdisziplinär, Praxisimplikationen reflektiert |
+| Kritische Reflexion | Vorhanden | Durchgängig, auch unbequeme Ergebnisse benannt |
+
+---
+
+## ANWEISUNG AN DAS LLM
+
+Wenn du Text für die Masterarbeit bewertest oder generierst:
+
+1. **Prüfe aktiv** gegen die obigen Kriterien – nicht nur auf Anfrage.
+2. **Benenne Lücken direkt**: "Dieser Abschnitt zeigt keine Methodenbegründung – das ist ein 2,0-Risiko."
+3. **Stelle kritische Rückfragen**: "Wurde eine alternative Methode erwogen? Wenn nicht, füge einen Satz zur Begründung der Auswahl ein."
+4. **Weise auf fehlende Reproduzierbarkeit hin**: Wenn Ergebnisse präsentiert werden ohne dokumentierten Weg dorthin.
+5. **Kein Schönreden**: Eine schwache Argumentationskette bleibt schwach, auch wenn der Rest gut ist.
