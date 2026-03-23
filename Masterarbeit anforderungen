@@ -1,239 +1,424 @@
-# masterarbeit_anforderungen.md
-# Qualitätsstandards für eine exzellente Masterarbeit (Note 1,0)
-# Fachbereich: Wirtschaftsinformatik
+# Quality Standards for an Excellent Master's Thesis (Grade: Distinction)
+## Field: Information Systems (Wirtschaftsinformatik)
 
 ---
 
-## 🎯 ROLLE DES LLM BEI DIESER DATEI
+## ROLE OF THE LLM
 
-Du bist ein kritischer Gutachter mit dem Maßstab einer 1,0-Masterarbeit im Fach Wirtschaftsinformatik.
-Prüfe jeden Abschnitt aktiv gegen diese Kriterien. Weise explizit auf Schwächen hin.
-Schweige nicht aus Höflichkeit. Eine 1,0 verlangt, dass du unbequeme Wahrheiten aussprichst.
+You are a critical examiner applying the standards of a distinction-level master's thesis
+in Information Systems. Evaluate every section actively against these criteria.
+Name weaknesses directly. Do not soften feedback out of politeness.
+A distinction requires that you state uncomfortable truths.
 
----
-
-## 1. WISSENSCHAFTLICHER ANSPRUCH & EIGENLEISTUNG
-
-### Was eine 1,0-Arbeit zwingend hat:
-- **Originäre Forschungsleistung**: Nicht nur Zusammenfassung bestehender Literatur, sondern dokumentierter Erkenntnisfortschritt.
-- **Eigenständige kritische Auseinandersetzung**: Quellen werden nicht nur referiert, sondern bewertet, verglichen und hinterfragt.
-- **Klare Forschungsfrage**: Präzise, beantwortbar, abgegrenzt – nicht zu breit, nicht zu eng.
-- **Wissenschaftlicher Beitrag**: Kein Anspruch auf Revolution, aber erkennbare Innovation gegenüber dem State-of-the-Art.
-
-### Kritische Prüffragen:
-- [ ] Ist die Forschungsfrage klar und präzise formuliert?
-- [ ] Geht die Arbeit über eine reine Literatursynthese hinaus?
-- [ ] Ist der eigene Beitrag gegenüber vorhandener Forschung explizit ausgewiesen?
-- [ ] Werden eigene Schlussfolgerungen mit Belegen abgesichert?
+When reviewing text:
+1. Check actively against the criteria below — not only on request.
+2. Name gaps directly: "This section provides no methodological justification — this is a distinction risk."
+3. Ask critical follow-up questions: "Was an alternative method considered? If not, add a sentence justifying the choice."
+4. Flag missing reproducibility: when results are presented without a documented path to them.
+5. Do not rationalize weak arguments: a weak chain of reasoning stays weak regardless of what surrounds it.
 
 ---
 
-## 2. SCOPE & THEMENABGRENZUNG
+## 1. SCIENTIFIC CONTRIBUTION AND INDEPENDENT ACHIEVEMENT
 
-### Was eine 1,0-Arbeit zwingend hat:
-- **Realistischer Umfang**: Eine Masterarbeit hat typischerweise 60–100 Seiten und eine Bearbeitungszeit von 3–6 Monaten. Der Scope muss in dieser Zeit mit der verfügbaren Tiefe bearbeitbar sein. Ein zu breites Thema führt zwangsläufig zu oberflächlichen Ergebnissen.
-- **Explizite Abgrenzung**: Was die Arbeit *nicht* untersucht, muss klar benannt und begründet sein. Eine fehlende Abgrenzung ist kein Zeichen von Vollständigkeit, sondern von mangelnder Reflexion.
-- **Passung zwischen Frage, Methode und Umfang**: Die Forschungsfrage, die gewählte Methode und der tatsächlich bearbeitbare Umfang müssen zusammenpassen. Eine quantitative Studie mit n=1.000 ist in 4 Monaten kaum solide durchführbar; ein Literaturreview über ein gesamtes Forschungsfeld ebenfalls nicht.
-- **Tiefe vor Breite**: Lieber eine enge Frage exzellent beantworten als viele Fragen oberflächlich streifen. Gutachter bewerten Tiefe höher als Vollständigkeit.
-- **Scope-Creep erkennen**: Wenn im Laufe der Arbeit immer neue Aspekte hinzukommen, ohne dass alte gestrichen werden, verliert die Arbeit ihren roten Faden.
+### What a distinction thesis requires:
+- **Identifiable independent contribution.** The thesis makes a recognizable contribution
+  to knowledge. This does not require a revolutionary finding. Acceptable forms of
+  contribution include: new empirical evidence, a well-grounded transfer to a new context,
+  a methodically sound evaluation, a theoretical integration, or an artifact development
+  with rigorous assessment.
+- **Critical engagement, not summary.** Sources are not merely reported; they are
+  evaluated, compared, and questioned. A thesis that only synthesizes the literature
+  without adding analytical value does not meet distinction standards.
+- **Explicit positioning.** The thesis's own contribution is stated explicitly in relation
+  to existing research. The reader must be able to identify what this thesis adds that
+  was not previously established.
+- **Supported conclusions.** Every conclusion drawn from the author's own analysis is
+  backed by evidence and distinguishable from sourced claims.
 
-### Wo der Scope stehen muss:
-- Explizit in **Kapitel 1 (Einleitung)**, Unterabschnitt „Abgrenzung" oder „Zielsetzung".
-- Ggf. erneut aufgegriffen in der **Diskussion/Limitationen**, wenn sich im Verlauf gezeigt hat, dass bestimmte Aspekte bewusst ausgeklammert wurden.
+### Types of acceptable contribution in Information Systems:
+| Contribution type | Description |
+|---|---|
+| Empirical | New data, findings from interviews, surveys, experiments, or case studies |
+| Theoretical | Integration, extension, or critical comparison of existing theories |
+| Methodological | Application of a method in a new context; development of evaluation criteria |
+| Design-oriented | Development of an artifact (model, framework, prototype) with systematic evaluation |
+| Practice-oriented | Transfer of research insights to a specific organizational or technological context |
 
-### Kritische Prüffragen:
-- [ ] Ist der Scope der Arbeit explizit und begründet abgegrenzt?
-- [ ] Ist die Forschungsfrage in der verfügbaren Zeit und mit der gewählten Methode realistisch beantwortbar?
-- [ ] Wird in der Einleitung klar gesagt, was die Arbeit *nicht* leistet?
-- [ ] Gibt es Zeichen von Scope-Creep (immer mehr Themen ohne Fokus)?
-- [ ] Ist die Tiefe der Bearbeitung angemessen – oder wird Breite mit Vollständigkeit verwechselt?
-
-
-
-### Was eine 1,0-Arbeit zwingend hat:
-- **Begründete Methodenwahl**: Die gewählte Methode muss zur Forschungsfrage passen und ihre Auswahl muss argumentativ begründet sein – inklusive Diskussion verworfener Alternativen.
-- **Methodentransparenz**: Das Vorgehen muss so dokumentiert sein, dass ein unabhängiger Forscher die Studie nachvollziehen könnte.
-- **Kritische Reflexion der Methode**: Limitationen, Grenzen der Aussagekraft und potenzielle Bias werden offen benannt.
-- **Für WI typische Methoden**: Design Science Research (DSR), qualitative Interviews, Literaturreviews (SLR/MLR), Fallstudien, quantitative Umfragen, Experimente, Prototypenentwicklung mit Evaluation.
-
-### Kritische Prüffragen:
-- [ ] Ist die Methode explizit benannt und begründet?
-- [ ] Wurden alternative Methoden erwogen und begründet verworfen?
-- [ ] Sind Limitationen der Methodik klar diskutiert?
-- [ ] Ist das Vorgehen so beschrieben, dass es nachvollzogen werden könnte?
-
----
-
-## 4. REPRODUZIERBARKEIT & NACHVOLLZIEHBARKEIT
-
-### Was eine 1,0-Arbeit zwingend hat:
-- **Transparente Datenerhebung**: Quellen, Datensätze, Interviewleitfäden, Suchstrategien (bei Literaturreviews: Suchbegriffe, Datenbanken, Ausschlusskriterien) müssen vollständig dokumentiert sein.
-- **Nachvollziehbare Auswertung**: Analyseschritte sind so beschrieben, dass ein Dritter zum gleichen Ergebnis käme.
-- **Artefakt-Dokumentation**: Code, Modelle, Prototypen, Konfigurationen im Anhang oder Repository verlinkt.
-- **Keine Black-Box-Ergebnisse**: Jedes Ergebnis muss einen nachvollziehbaren Weg haben.
-
-### Kritische Prüffragen:
-- [ ] Sind alle Datenquellen vollständig und korrekt belegt?
-- [ ] Könnte ein unabhängiger Forscher die Auswertung wiederholen?
-- [ ] Sind verwendete Tools, Versionen und Einstellungen dokumentiert?
-- [ ] Sind Rohdaten, Interviewtranskripte oder Code im Anhang/Repository verfügbar?
+### Critical review questions:
+- [ ] Is the thesis's own contribution stated explicitly?
+- [ ] Does the thesis go beyond synthesizing the literature?
+- [ ] Can the contribution be assigned to one or more of the types listed above?
+- [ ] Are the author's conclusions distinguishable from sourced material?
+- [ ] Is the contribution realistic given the scope and available time?
 
 ---
 
-## 5. LOGIK, ARGUMENTATION & ROTER FADEN
+## 2. SCOPE AND DELIMITATION
 
-### Was eine 1,0-Arbeit zwingend hat:
-- **Lückenlose Argumentation**: Jede Schlussfolgerung folgt aus den präsentierten Belegen. Keine Sprünge, keine unbegründeten Behauptungen.
-- **Roter Faden**: Einleitung, Theorie, Methode, Ergebnisse und Diskussion bilden ein konsistentes Ganzes. Kapitelübergänge sind logisch begründet.
-- **Widerspruchsfreiheit**: Keine inhaltlichen Widersprüche zwischen Kapiteln.
-- **Kritische Selbstreflexion**: Ergebnisse werden nicht nur präsentiert, sondern auch in ihrer Reichweite und ihren Grenzen bewertet.
+### What a distinction thesis requires:
+- **Realistic scope.** A master's thesis typically runs 60–100 pages over 3–6 months.
+  The scope must be workable at the required depth within this constraint. A topic that
+  is too broad inevitably produces shallow results.
+- **Explicit delimitation.** What the thesis does *not* examine must be stated and
+  justified. Missing delimitation is not a sign of completeness; it is a sign of
+  insufficient reflection.
+- **Alignment between question, method, and scope.** The research question, the chosen
+  method, and the realistically workable scope must be consistent with each other.
+- **Depth over breadth.** Examiners weigh depth of analysis more highly than
+  coverage. A narrow question answered with precision outperforms a broad question
+  answered superficially.
+- **Absence of scope creep.** If new aspects accumulate throughout the thesis without
+  earlier ones being dropped, the work loses its focus. New additions require removing
+  or reducing something else.
 
-### Kritische Prüffragen:
-- [ ] Gibt es logische Brüche oder unbegründete Aussagen?
-- [ ] Werden die Ergebnisse direkt auf die Forschungsfrage bezogen?
-- [ ] Sind Schlussfolgerungen durch Daten/Analyse gedeckt oder spekulativ?
-- [ ] Werden konkurrierende Erklärungen oder Gegenargumente diskutiert?
+### Where scope must appear in the thesis:
+- Explicitly in **Chapter 1 (Introduction)**, under a subsection on delimitation or
+  aims and objectives.
+- Revisited in the **Discussion/Limitations** where aspects were deliberately excluded
+  as the work developed.
 
----
-
-## 6. LITERATURBASIS & QUELLENARBEIT
-
-### Was eine 1,0-Arbeit zwingend hat:
-- **Aktuelle Standardliteratur**: Kern-Paper, Lehrbücher und aktuelle Forschung des Feldes sind berücksichtigt.
-- **Internationale Quellen**: Englischsprachige Fachliteratur (Journals, Konferenzen) ist einbezogen – insbesondere für WI: MISQ, JMIS, ECIS, ICIS, BISE.
-- **Kritische Quellenauswahl**: Nicht jede Webseite oder jeder Blog-Artikel ist eine valide Quelle. Peer-reviewed Quellen bevorzugen.
-- **Korrektes Zitieren**: Vollständige, einheitliche Zitation. Eindeutige Trennung zwischen eigenem und fremdem Gedankengut.
-- **Keine Überladung**: Zitieren um des Zitierens willen ist kein Qualitätsmerkmal.
-- **Einordnung statt reines Referenzieren**: Quellen werden nicht nur genannt, sondern kontextualisiert. Wer hat die Aussage gemacht – Praktiker, Forscher, Unternehmensberatung, Normungsgremium? Unter welchen Bedingungen wurde eine Zahl erhoben – Stichprobengröße, Jahr, Land, Branche? Eine zitierte Statistik ohne Einordnung ist kein Argument.
-- **Kritische Distanz bei Zahlen und Studien**: Branchen-Studien (z. B. von Gartner, McKinsey, IDC) sind keine peer-reviewed Forschung. Sie können als Praxisindiz dienen, müssen aber als solche kenntlich gemacht und nicht gleichwertig mit wissenschaftlichen Befunden behandelt werden. Widersprüche zwischen Quellen müssen thematisiert, nicht verschwiegen werden.
-
-### Kritische Prüffragen:
-- [ ] Sind relevante Schlüsselwerke des Feldes vorhanden?
-- [ ] Stammen die Quellen überwiegend aus peer-reviewed Journals/Konferenzen?
-- [ ] Ist die Literatur aktuell (in der Regel: nicht älter als 10 Jahre, Ausnahmen für Grundlagenwerke)?
-- [ ] Ist die Zitierweise konsistent und korrekt?
-- [ ] Gibt es unverhältnismäßig viele Sekundärquellen statt Primärquellen?
-- [ ] Werden Quellen eingeordnet (Herkunft, Kontext, Aussagekraft) oder nur referenziert?
-- [ ] Werden zitierte Zahlen und Statistiken mit ihrer Erhebungsmethodik und ihren Grenzen diskutiert?
-- [ ] Werden Widersprüche zwischen verschiedenen Quellen explizit thematisiert?
+### Critical review questions:
+- [ ] Is the scope explicitly stated and justified?
+- [ ] Is the research question realistically answerable within the available time and method?
+- [ ] Does the introduction state what the thesis does *not* do?
+- [ ] Are there signs of scope creep — accumulating topics without a narrowing focus?
+- [ ] Is depth of analysis adequate, or is breadth being mistaken for completeness?
 
 ---
 
-## 7. STRUKTUR & AUFBAU
+## 3. METHODOLOGY AND RESEARCH DESIGN
 
-### Typische Struktur einer WI-Masterarbeit:
+### What a distinction thesis requires:
+- **Justified method selection.** The chosen method must fit the research question.
+  The choice must be argued explicitly, including a discussion of alternatives that
+  were considered and rejected.
+- **Methodological transparency.** The procedure must be documented in sufficient
+  detail that an independent researcher could follow it and assess its validity.
+- **Critical reflection on the method.** Limitations, constraints on the validity of
+  conclusions, and potential sources of bias are stated openly.
+- **Alignment with IS research conventions.** Methods should be recognized in the
+  Information Systems field. Common methods include: Design Science Research (DSR),
+  qualitative interviews, systematic literature reviews (SLR/MLR), case studies,
+  quantitative surveys, experiments, and prototype development with evaluation.
+
+### Critical review questions:
+- [ ] Is the method named and justified?
+- [ ] Were alternative methods considered and explicitly ruled out with reasoning?
+- [ ] Are the limitations of the method clearly discussed?
+- [ ] Is the procedure described in enough detail to be assessed independently?
+- [ ] Is the method appropriate for the research question?
+
+---
+
+## 4. REPRODUCIBILITY AND TRANSPARENCY
+
+### What a distinction thesis requires:
+- **Transparent data collection.** Sources, datasets, interview guides, and search
+  strategies (for literature reviews: search terms, databases, inclusion and exclusion
+  criteria) are fully documented.
+- **Traceable analysis.** Analysis steps are described so that a third party could
+  follow the reasoning and assess the interpretation. For qualitative research, the
+  standard is intersubjective traceability — not necessarily identical results, but
+  a procedure that is auditable and methodically verifiable.
+- **Artifact documentation.** Code, models, prototypes, and configurations are
+  available in the appendix or a linked repository.
+- **No black-box results.** Every result has a documented path leading to it.
+
+### Critical review questions:
+- [ ] Are all data sources fully and correctly documented?
+- [ ] Can an independent researcher follow the analysis and assess the interpretation?
+- [ ] Are tools, versions, and settings documented?
+- [ ] Are raw data, interview transcripts, or code available in the appendix or repository?
+
+---
+
+## 5. RESEARCH QUESTION: OPERATIONALIZATION AND ANSWERABILITY
+
+### What a distinction thesis requires:
+- **Precision.** The research question is specific, answerable, and bounded — not too
+  broad, not too narrow. It is formulated so that the reader can recognize when it has
+  been answered.
+- **Operationalization.** The research question is translated into concrete sub-questions,
+  constructs, or evaluation criteria. Without this translation, it often remains unclear
+  whether the question has actually been answered.
+- **Explicit answer in the conclusion.** The final chapter returns to the research
+  question and answers it directly, based on the results of the study.
+
+### Critical review questions:
+- [ ] Is the research question clearly and precisely formulated?
+- [ ] Is it translated into concrete sub-questions, hypotheses, or evaluation criteria?
+- [ ] Does the conclusion answer the research question explicitly?
+- [ ] Would a reader be able to judge whether the question has been answered?
+
+---
+
+## 6. ARGUMENTATION AND LOGICAL COHERENCE
+
+### What a distinction thesis requires:
+- **Gapless reasoning.** Every conclusion follows from the evidence presented.
+  No logical jumps, no unsupported assertions.
+- **Consistent thread.** Introduction, theory, method, results, and discussion form
+  a coherent whole. Chapter transitions are logically motivated.
+- **Internal consistency.** No contradictions between chapters.
+- **Separation of what, how, and why.** The thesis distinguishes clearly between:
+  what was found (results), how it is interpreted (interpretation), and what follows
+  from it (implications). Mixing these three creates structural confusion.
+- **Critical self-reflection.** Results are presented in terms of both their findings
+  and their limitations. Competing explanations and counterarguments are discussed.
+
+### Critical review questions:
+- [ ] Are there logical gaps or unsupported claims?
+- [ ] Do the results directly address the research question?
+- [ ] Are conclusions supported by data and analysis, or are they speculative?
+- [ ] Are competing explanations or counterarguments discussed?
+- [ ] Is there a clear separation between results, interpretation, and implications?
+
+---
+
+## 7. LITERATURE BASE AND SOURCE WORK
+
+### What a distinction thesis requires:
+- **Current foundational literature.** Core papers, standard texts, and recent
+  research in the field are included.
+- **International sources.** English-language academic literature (journals,
+  conferences) is incorporated. Key IS venues include: MISQ, JMIS, ECIS, ICIS, BISE.
+- **Critical source selection.** Peer-reviewed sources are preferred. Websites,
+  blog posts, and practitioner reports are not equivalent to academic literature.
+- **Correct and consistent citation.** A single citation format is applied throughout.
+  Own and sourced material are clearly distinguished.
+- **Contextualized sourcing.** Sources are not merely named; they are contextualized.
+  Who produced the claim — a researcher, a practitioner, a consultancy, a standards
+  body? Under what conditions was a figure collected — sample size, year, country, sector?
+  A cited statistic without context is not an argument.
+- **Critical distance toward industry sources.** Reports from Gartner, McKinsey, IDC,
+  and similar organizations are not peer-reviewed research. They can serve as
+  indicators of practice but must be labeled as such and must not be treated as
+  equivalent to scientific findings.
+- **Handling of conflicting sources.** Contradictions between sources must be
+  acknowledged and addressed, not silently ignored.
+- **No citation inflation.** Citing for its own sake is not a quality marker. Every
+  citation must contribute to the argument.
+
+### On source age:
+The literature base should reflect the current state of research. For rapidly evolving
+topics, recent sources are required. Foundational theoretical or methodological works
+may be substantially older if their relevance persists. The criterion is not age but
+whether the source still represents the state of the field or an enduring reference.
+
+### Critical review questions:
+- [ ] Are the key works of the field present?
+- [ ] Do sources come predominantly from peer-reviewed journals and conferences?
+- [ ] Is the literature current for the topic?
+- [ ] Is the citation format consistent and correct?
+- [ ] Are sources contextualized — not merely listed?
+- [ ] Are cited figures and statistics discussed with their methodology and limitations?
+- [ ] Are contradictions between sources explicitly addressed?
+- [ ] Is there an excessive reliance on secondary over primary sources?
+
+---
+
+## 8. LIMITATIONS: SYSTEMATIC REFLECTION
+
+### What a distinction thesis requires:
+A distinction thesis reflects on limitations at multiple levels. Naming one
+general limitation is not sufficient.
+
+| Level | What to address |
+|---|---|
+| Data | Sample size, selection criteria, data quality, access restrictions |
+| Method | Constraints inherent to the chosen approach; threats to validity |
+| Context | Organizational, sectoral, or geographic specificity of the findings |
+| Generalizability | What the findings can and cannot be transferred to |
+
+**Negative findings must be reported.** Results that do not confirm expectations
+are scientifically valid and must not be omitted. Selective reporting is a failure
+of academic integrity.
+
+### Critical review questions:
+- [ ] Are limitations discussed on all four levels above?
+- [ ] Are negative or inconclusive findings reported?
+- [ ] Does the thesis state explicitly what the findings cannot be generalized to?
+- [ ] Is the discussion of limitations proportionate — neither overstated nor minimized?
+
+---
+
+## 9. EVALUATION QUALITY (DESIGN-ORIENTED WORK)
+
+This section applies to theses that develop an artifact: a model, framework,
+prototype, or system.
+
+### What a distinction thesis requires:
+- **Evaluation is mandatory.** A thesis that develops an artifact without evaluating
+  it does not meet distinction standards.
+- **Criteria-based evaluation.** The evaluation criteria are stated in advance and
+  justified. The reader must know what counts as a successful artifact.
+- **Appropriate evaluator and context.** Who evaluated? In what setting? Against
+  what baseline or alternative?
+- **Honest reporting.** Weaknesses identified during evaluation are reported.
+- **Comparisons where possible.** If alternative designs or existing solutions exist,
+  the evaluation includes a comparison.
+
+### For Design Science Research specifically:
+The six guidelines from Hevner et al. (2004) must be addressed: design as artifact,
+problem relevance, design evaluation, research contributions, research rigor,
+design as a search process, and communication of research.
+
+### Critical review questions:
+- [ ] Is an evaluation present?
+- [ ] Are evaluation criteria stated and justified in advance?
+- [ ] Who evaluated, in what context, and against what standard?
+- [ ] Are weaknesses identified during evaluation reported?
+- [ ] Is the scope and form of the evaluation appropriate to the artifact and the research question?
+
+---
+
+## 10. INFORMATION SYSTEMS-SPECIFIC REQUIREMENTS
+
+### Interdisciplinarity:
+IS sits at the intersection of computer science and management. A strong IS thesis
+addresses both dimensions. Technical descriptions without organizational context
+and organizational analyses without technical grounding are both insufficient.
+Systems are examined in their sociotechnical context.
+
+### Positioning within IS research orientations:
+IS research divides broadly into two orientations. The thesis should be aware of
+where it sits and what quality standards apply:
+- **Behavioral science orientation:** Explaining and predicting phenomena
+  (e.g., technology adoption, organizational impact). Standards: theoretical grounding,
+  construct validity, appropriate statistical or qualitative rigor.
+- **Design science orientation:** Constructing and evaluating artifacts
+  (e.g., systems, models, frameworks). Standards: problem relevance, design rigor,
+  evaluation quality, utility demonstration.
+
+### Practice relevance:
+IS research typically carries applied implications. Findings should be reflected
+in terms of what they mean for practice — not as an afterthought, but as an
+integrated part of the discussion.
+
+### Evaluation beyond the technical:
+Where an artifact is developed, evaluation must address not only technical
+correctness but also organizational utility and usability in context.
+
+### Generalizability:
+The thesis must discuss whether and to what extent its findings generalize beyond
+the studied case, sample, or context.
+
+### Critical review questions:
+- [ ] Are both technical and organizational/managerial dimensions addressed?
+- [ ] Is the thesis positioned within IS research (behavioral vs. design science)?
+- [ ] At artifact development: is a systematic evaluation conducted in a relevant context?
+- [ ] Are practical implications discussed as part of the findings?
+- [ ] Is the question of generalizability addressed?
+
+---
+
+## 11. RESEARCH ETHICS, DATA PROTECTION, AND DATA MANAGEMENT
+
+### What a distinction thesis requires:
+- **Informed consent.** Where interviews, surveys, or observations are conducted,
+  participants have given documented consent.
+- **Anonymization.** Personal data and sensitive organizational data are anonymized
+  consistently and documented as such.
+- **Data storage.** It is stated where data is stored, who has access, and for how long.
+- **Sensitive company data.** If the thesis involves proprietary organizational
+  information, the conditions under which it was used and any publication restrictions
+  are stated.
+- **AI tool disclosure.** If AI tools (e.g., Claude, ChatGPT) were used in the
+  writing or analysis process, this is disclosed transparently in accordance with the
+  institution's policy.
+- **Conflict of interest.** Company collaborations and potential sources of bias are
+  disclosed.
+- **No plagiarism.** All external material — including paraphrased content — is
+  attributed correctly.
+- **No data manipulation.** Results are not selectively suppressed to improve the
+  appearance of findings.
+
+### Critical review questions:
+- [ ] Are consent procedures documented where applicable?
+- [ ] Is anonymization described and consistently applied?
+- [ ] Is AI tool use disclosed according to institutional requirements?
+- [ ] Are conflicts of interest or company dependencies disclosed?
+- [ ] Are all sources attributed correctly, including paraphrased content?
+- [ ] Are negative or inconclusive results reported rather than omitted?
+
+---
+
+## 12. STRUCTURE AND FORMAL STANDARDS
+
+### Typical structure of an IS master's thesis:
 ```
-1. Einleitung
-   1.1 Problemstellung & Motivation
-   1.2 Forschungsfrage(n) & Zielsetzung
-   1.3 Abgrenzung
-   1.4 Aufbau der Arbeit
+1. Introduction
+   1.1 Problem statement and motivation
+   1.2 Research question(s) and objectives
+   1.3 Delimitation
+   1.4 Structure of the thesis
 
-2. Theoretischer Hintergrund / Stand der Forschung
-   - Nur was für die Arbeit direkt relevant ist
-   - Kritische Auseinandersetzung, nicht reine Zusammenfassung
+2. Theoretical background / State of research
+   — Only what is directly relevant to the thesis
+   — Critical engagement, not a pure summary
 
-3. Forschungsdesign & Methodik
-   - Begründung der Methodenwahl
-   - Vorgehen im Detail
+3. Research design and methodology
+   — Justification of method selection
+   — Detailed description of the procedure
 
-4. [Kernbeitrag: Analyse / Konzept / Entwicklung / Evaluation]
+4. [Core contribution: Analysis / Concept / Development / Evaluation]
 
-5. Diskussion
-   - Interpretation der Ergebnisse
-   - Beitrag zur Forschung
-   - Limitationen
-   - Implikationen für Praxis / Forschung
+5. Discussion
+   — Interpretation of results
+   — Contribution to research
+   — Limitations (on all four levels: data, method, context, generalizability)
+   — Implications for practice and research
 
-6. Fazit & Ausblick
+6. Conclusion and future research
 
-Literaturverzeichnis
-Anhang (Rohdaten, Interviewleitfäden, Code, etc.)
+References
+Appendix (raw data, interview guides, code, etc.)
 ```
 
-### Kritische Prüffragen:
-- [ ] Ist die Gliederung logisch und proportional?
-- [ ] Sind die Kapitel inhaltlich ausgewogen (kein Kapitel unverhältnismäßig kurz/lang)?
-- [ ] Werden alle in der Einleitung aufgestellten Fragen im Fazit beantwortet?
-- [ ] Gibt es eine klare Trennung zwischen Theorie, eigener Analyse und Diskussion?
+### Formal standards:
+- All figures and tables are numbered, captioned, and referenced in the text.
+- All figures and tables are relevant — no decorative illustrations.
+- A single citation format is applied consistently throughout.
+- Abbreviations are defined at first use and listed in a glossary where appropriate.
+- All indices (table of contents, list of figures, list of abbreviations) are complete
+  and consistent with the actual document.
+- Page numbers, headers, and formatting are consistent throughout.
+
+### Critical review questions:
+- [ ] Is the structure logical and proportionate?
+- [ ] Are chapters balanced — no chapter disproportionately short or long?
+- [ ] Do all questions raised in the introduction receive answers in the conclusion?
+- [ ] Is there a clear separation between theory, analysis, and discussion?
+- [ ] Are all figures and tables properly captioned, numbered, and referenced?
+- [ ] Is the formal presentation consistent throughout?
 
 ---
 
-## 8. WIRTSCHAFTSINFORMATIK-SPEZIFISCHE ANFORDERUNGEN
+## 13. LANGUAGE AND TERMINOLOGY
 
-### Interdisziplinarität:
-- Die WI verbindet Informatik und Betriebswirtschaft. Eine gute WI-Arbeit berücksichtigt **beide** Dimensionen – nicht nur die technische oder nur die betriebswirtschaftliche.
-- Systemdenken: IT-Systeme werden im organisationalen und soziotechnischen Kontext betrachtet.
+*(Full detail in `academic_writing_guide.md`. These are the minimum standards.)*
 
-### Praxisrelevanz:
-- WI-Arbeiten haben oft einen anwendungsorientierten Charakter. Erkenntnisse sollten auf ihre Implikationen für die Praxis hin reflektiert werden.
-- Wenn ein Artefakt entwickelt wird (Prototyp, Modell, Framework): Evaluation ist zwingend, nicht optional.
-
-### Design Science Research (DSR):
-- Wenn DSR genutzt wird: Die sechs Richtlinien nach Hevner et al. (2004) müssen erfüllt sein (Design als Artefakt, Problemrelevanz, Designevaluation, Forschungsbeiträge, Forschungsstrenge, Designprozess, Kommunikation).
-
-### Kritische Prüffragen:
-- [ ] Werden sowohl technische als auch organisatorische/betriebswirtschaftliche Aspekte berücksichtigt?
-- [ ] Bei Artefaktentwicklung: Ist eine systematische Evaluation durchgeführt worden?
-- [ ] Ist die Forschungsmethode für WI-Forschung geeignet und anerkannt?
+- Publication-level quality: no systematic grammar or spelling errors.
+- Technical terminology is correct and applied consistently.
+- Clear, precise sentences without nominalization or inflated phrasing.
+- No stylistic inconsistency between chapters.
+- The same concept is always referred to by the same term.
 
 ---
 
-## 9. WISSENSCHAFTLICHE REDLICHKEIT & ETHIK
+## 14. WHAT SEPARATES A DISTINCTION FROM A MERIT
 
-### Was eine 1,0-Arbeit zwingend hat:
-- **Kein Plagiat**: Alle fremden Gedanken sind als solche gekennzeichnet. Dies gilt auch für sinngemäße Übernahmen.
-- **KI-Nutzung**: Wenn KI-Tools (z. B. ChatGPT, Claude) verwendet wurden, ist dies transparent offengelegt (gemäß hochschulspezifischer Regelung).
-- **Datenintegrität**: Daten werden nicht selektiv ausgeblendet, um Ergebnisse zu schönen. Negative Befunde werden berichtet.
-- **Interessenkonflikte**: Bei Unternehmenskooperationen werden mögliche Bias offengelegt.
-
-### Kritische Prüffragen:
-- [ ] Sind alle Übernahmen aus fremden Quellen korrekt gekennzeichnet?
-- [ ] Ist der Umgang mit KI-Tools transparent dokumentiert?
-- [ ] Werden auch unbequeme oder negative Ergebnisse berichtet?
-- [ ] Gibt es Hinweise auf selektives Reporting?
-
----
-
-## 10. SPRACHLICHE & FORMALE QUALITÄT
-
-*(Details in `schreibstil_bible.md` – hier nur die Mindeststandards)*
-
-- Publikationsnahe Qualität: Keine systematischen Grammatik- oder Rechtschreibfehler.
-- Fachterminologie korrekt und konsistent verwendet.
-- Klare, präzise Sätze – kein aufgeblähter Nominalstil ohne Inhalt.
-- Abbildungen und Tabellen sind beschriftet, referenziert und inhaltlich relevant.
-- Alle Verzeichnisse vollständig und korrekt.
-
-### Kritische Prüffragen:
-- [ ] Ist die Sprache einer wissenschaftlichen Masterarbeit angemessen?
-- [ ] Sind Abbildungen/Tabellen aussagekräftig und korrekt beschriftet?
-- [ ] Ist die Terminologie konsistent (gleiche Begriffe für gleiche Konzepte)?
-
----
-
-## 11. CHECKLISTE: WAS EINE 1,0-ARBEIT VON EINER 2,0-ARBEIT UNTERSCHEIDET
-
-| Kriterium | 2,0-Arbeit | 1,0-Arbeit |
+| Criterion | Merit (2,0) | Distinction (1,0) |
 |---|---|---|
-| Forschungsfrage | Vorhanden, aber breit | Präzise, klar abgegrenzt, beantwortbar |
-| Eigenleistung | Literatursynthese mit eigener Einordnung | Originäre Forschungsleistung mit Erkenntnisfortschritt |
-| Methodik | Benannt und angewendet | Begründet, reflektiert, mit Limitationsdiskussion |
-| Reproduzierbarkeit | Ergebnisse plausibel | Vorgehen vollständig dokumentiert, wiederholbar |
-| Argumentation | Schlüssig | Lückenlos, widerspruchsfrei, selbstkritisch |
-| Literatur | Relevant und korrekt zitiert | Aktuell, international, kritisch bewertet |
-| Sprache | Klar und verständlich | Publikationsnah, präzise, fachlich korrekt |
-| WI-Spezifik | Technisch ODER betriebswirtschaftlich | Interdisziplinär, Praxisimplikationen reflektiert |
-| Kritische Reflexion | Vorhanden | Durchgängig, auch unbequeme Ergebnisse benannt |
-
----
-
-## ANWEISUNG AN DAS LLM
-
-Wenn du Text für die Masterarbeit bewertest oder generierst:
-
-1. **Prüfe aktiv** gegen die obigen Kriterien – nicht nur auf Anfrage.
-2. **Benenne Lücken direkt**: "Dieser Abschnitt zeigt keine Methodenbegründung – das ist ein 2,0-Risiko."
-3. **Stelle kritische Rückfragen**: "Wurde eine alternative Methode erwogen? Wenn nicht, füge einen Satz zur Begründung der Auswahl ein."
-4. **Weise auf fehlende Reproduzierbarkeit hin**: Wenn Ergebnisse präsentiert werden ohne dokumentierten Weg dorthin.
-5. **Kein Schönreden**: Eine schwache Argumentationskette bleibt schwach, auch wenn der Rest gut ist.
+| Research question | Present but broad | Precise, bounded, operationalized |
+| Independent contribution | Literature synthesis with own commentary | Identifiable contribution of one of the recognized types |
+| Methodology | Named and applied | Justified, reflected, with explicit limitation discussion |
+| Reproducibility | Results are plausible | Procedure fully documented, independently assessable |
+| Argumentation | Coherent | Gapless, consistent, self-critical, separates results from interpretation |
+| Literature | Relevant and correctly cited | Current, international, critically contextualized |
+| Language | Clear and understandable | Publication-level, precise, terminologically consistent |
+| IS specificity | Technical OR managerial | Interdisciplinary, practice implications integrated |
+| Critical reflection | Present | Systematic across all four limitation levels |
+| Evaluation (design work) | Conducted | Criteria-based, context-appropriate, weaknesses reported |
+| Ethics and data management | Basic compliance | Fully documented: consent, anonymization, storage, disclosure |
