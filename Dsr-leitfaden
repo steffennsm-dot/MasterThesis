@@ -1,430 +1,611 @@
-# dsr_leitfaden.md
-# Design Science Research – Leitfaden für die Masterarbeit
-# Fachbereich: Wirtschaftsinformatik
+# Design Science Research – Guide for the Master's Thesis
+## Field: Information Systems (Wirtschaftsinformatik)
 
 ---
 
-## 🎯 ROLLE DES LLM BEI DIESER DATEI
+## ROLE OF THE LLM
 
-Du unterstützt beim Schreiben einer DSR-Masterarbeit. Prüfe bei jedem Kapitelentwurf aktiv,
-ob die DSR-Logik korrekt eingehalten wird: Artefakt klar definiert, Iterationen sichtbar,
-Evaluation methodisch begründet. Weise auf fehlende DSR-Elemente explizit hin.
+You support the writing of a DSR master's thesis. For every chapter draft, actively
+check whether the DSR logic is correctly maintained: artifact clearly defined,
+iterations visible and documented, evaluation methodically justified.
 
----
-
-## 1. WAS IST DSR UND WANN IST ES RICHTIG
-
-Design Science Research (DSR) ist ein Forschungsparadigma, das auf die Lösung eines
-praxisrelevanten Problems durch die Gestaltung und Evaluation eines Artefakts abzielt.
-DSR verbindet wissenschaftliche Rigorosität mit praktischer Relevanz.
-
-**DSR ist die richtige Methode, wenn:**
-- Ein konkretes, praxisrelevantes Problem existiert, das durch ein Artefakt gelöst werden kann
-- Das Artefakt (Modell, Methode, Prototyp, Framework) selbst der wissenschaftliche Beitrag ist
-- Erkenntnisgewinn nicht nur durch Beschreiben, sondern durch Gestalten und Evaluieren entsteht
-
-**DSR ist die falsche Methode, wenn:**
-- Nur ein Phänomen beschrieben oder erklärt werden soll (→ dann Behavioral Science)
-- Kein Artefakt entsteht
-- Das Problem rein theoretischer Natur ist ohne Praxisbezug
-
-**Wichtige Abgrenzung:** DSR ist kein Softwareprojekt. Der Unterschied zur Praxis ist,
-dass Erkenntnisse abstrahiert und als Designwissen kommuniziert werden.
+When reviewing:
+1. Name missing DSR elements explicitly: "This evaluation chapter reports only positive
+   findings — this violates Guideline L3 (Hevner et al., 2004). Add negative findings
+   and show how they influenced the design."
+2. Identify zircular reasoning: meta-requirements or evaluation criteria defined after
+   the artifact was built invalidate the evaluation.
+3. Flag missing contribution: if design principles or other forms of design knowledge
+   are absent from the Discussion chapter.
+4. Do not ask "does this exist?" — state "this is missing" and propose a concrete addition.
 
 ---
 
-## 2. DIE THEORETISCHEN GRUNDLAGEN – WAS ZWINGEND ZITIERT WERDEN MUSS
+## 1. WHAT DSR IS AND WHEN IT IS THE RIGHT METHOD
 
-Jede DSR-Masterarbeit muss auf die kanonischen Grundlagenwerke referenzieren
-und diese nicht nur zitieren, sondern erläutern, warum das jeweilige Modell gewählt wurde.
+Design Science Research (DSR) is a research paradigm aimed at solving a practically
+relevant problem through the design and evaluation of an artifact. DSR connects
+scientific rigor with practical relevance.
 
-### Pflichtquellen:
-- **Hevner et al. (2004)**: Die sieben Leitlinien von DSR. Grundlage jeder DSR-Arbeit.
-  `Hevner, A.R., March, S.T., Park, J., Ram, S. (2004): Design Science in Information Systems Research. MIS Quarterly, 28(1), 75–105.`
-- **Hevner (2007)**: Das Drei-Zyklen-Modell (Relevance, Rigor, Design Cycle).
-  `Hevner, A.R. (2007): A Three Cycle View of Design Science Research. Scandinavian Journal of Information Systems, 19(2), 87–92.`
-- **Peffers et al. (2007)**: Das DSRM-Prozessmodell mit sechs Aktivitäten.
-  `Peffers, K., Tuunanen, T., Rothenberger, M.A., Chatterjee, S. (2007): A Design Science Research Methodology for Information Systems Research. JMIS, 24(3), 45–77.`
-- **Gregor & Hevner (2013)**: Wie DSR-Beiträge klassifiziert und kommuniziert werden.
-  `Gregor, S., Hevner, A.R. (2013): Positioning and Presenting Design Science Research for Maximum Impact. MIS Quarterly, 37(2), 337–356.`
+**DSR is the right method when:**
+- A concrete, practically relevant problem exists that can be addressed by an artifact
+- The artifact (model, method, prototype, framework) is itself the scientific contribution
+- Knowledge is generated not only through observation and explanation, but through
+  designing, building, and evaluating
 
-### Empfohlene Ergänzungen:
-- **March & Smith (1995)**: Artefakt-Typen (Konstrukte, Modelle, Methoden, Instanziierungen)
-- **Venable, Pries-Heje & Baskerville (2016)**: FEDS – Framework for Evaluation in DSR
-- **Vom Brocke et al. (2020)**: Design Knowledge als Wissensform
+**DSR is the wrong method when:**
+- The goal is to describe or explain a phenomenon without producing an artifact
+  (→ use behavioral science approaches instead)
+- No artifact is produced
+- The research question is primarily explanatory or theory-testing in nature
+
+**Critical distinction:** DSR is not a software engineering project. The difference
+is that DSR abstracts its insights from the artifact and communicates them as design
+knowledge applicable beyond the specific instance.
+
+**On method justification:** Stating "this thesis follows the DSR methodology of
+Peffers et al. (2007)" is not sufficient. The thesis must argue *why* DSR — and not,
+for example, a qualitative case study or a systematic literature review — is the
+appropriate method for *this* specific research question. The method fits the question;
+the choice must be made explicit.
 
 ---
 
-## 3. DIE DREI ZYKLEN NACH HEVNER (2007)
+## 2. THEORETICAL FOUNDATIONS
 
-Hevner beschreibt DSR durch drei ineinandergreifende Zyklen. Diese müssen in der Arbeit
-erkennbar sein – nicht als Kapitelstruktur, sondern als nachvollziehbare Logik.
+### Core references:
+The following works form the standard reference base for DSR in Information Systems.
+A thesis should draw on these where applicable and justify its methodological framing
+explicitly. They are not mandatory in a universal sense, but in practice most
+rigorous DSR theses will reference them.
+
+| Reference | What it contributes |
+|---|---|
+| Hevner et al. (2004) | The seven guidelines for DSR; the foundational reference |
+| Hevner (2007) | The three-cycle model (Relevance, Design, Rigor) |
+| Peffers et al. (2007) | The DSRM process model with six activities |
+| Gregor & Hevner (2013) | How DSR contributions are classified and communicated |
+| March & Smith (1995) | Artifact types: constructs, models, methods, instantiations |
+| Venable et al. (2016) | FEDS: Framework for Evaluation in Design Science Research |
+| Gregor & Jones (2007) | The anatomy of a design theory |
+| Baskerville et al. (2015) | Genres of inquiry in design science research |
+
+Full references:
+- Hevner, A.R., March, S.T., Park, J., Ram, S. (2004). Design Science in Information Systems Research. *MIS Quarterly*, 28(1), 75–105.
+- Hevner, A.R. (2007). A Three Cycle View of Design Science Research. *Scandinavian Journal of Information Systems*, 19(2), 87–92.
+- Peffers, K., Tuunanen, T., Rothenberger, M.A., Chatterjee, S. (2007). A Design Science Research Methodology for Information Systems Research. *JMIS*, 24(3), 45–77.
+- Gregor, S., Hevner, A.R. (2013). Positioning and Presenting Design Science Research for Maximum Impact. *MIS Quarterly*, 37(2), 337–356.
+- March, S.T., Smith, G.F. (1995). Design and Natural Science Research on Information Technology. *Decision Support Systems*, 15(4), 251–266.
+- Venable, J., Pries-Heje, J., Baskerville, R. (2016). FEDS: A Framework for Evaluation in Design Science Research. *European Journal of Information Systems*, 25(1), 77–89.
+- Gregor, S., Jones, D. (2007). The Anatomy of a Design Theory. *JAIS*, 8(5), 312–335.
+- Baskerville, R., Kaul, M., Storey, V.C. (2015). Genres of Inquiry in Design-Science Research. *MIS Quarterly*, 39(3), 541–564.
+
+---
+
+## 3. THE THREE CYCLES (HEVNER, 2007)
+
+Hevner describes DSR through three interlocking cycles. All three must be recognizable
+in the thesis — not necessarily as chapter headings, but as traceable logic.
 
 ```
 ┌─────────────────┐     ┌─────────────────┐     ┌─────────────────┐
 │  RELEVANCE      │     │  DESIGN         │     │  RIGOR          │
 │  CYCLE          │────▶│  CYCLE          │◀────│  CYCLE          │
 │                 │     │                 │     │                 │
-│ Problemraum:    │     │ Artefakt bauen  │     │ Wissensbasis:   │
-│ Mensch, Org.,   │     │ und evaluieren  │     │ Theorien,       │
-│ Technik         │     │ (iterativ)      │     │ besteh. Modelle │
+│ Problem space:  │     │ Build and       │     │ Knowledge base: │
+│ People, orgs,   │     │ evaluate        │     │ Theories,       │
+│ technology      │     │ (iteratively)   │     │ existing models │
 │                 │◀────│                 │────▶│                 │
-│ Anforderungen   │     │ Designwissen    │     │ Fundierung      │
+│ Requirements    │     │ Design knowledge│     │ Grounding       │
 └─────────────────┘     └─────────────────┘     └─────────────────┘
 ```
 
-**Was das für die Arbeit bedeutet:**
-- **Relevance Cycle**: Das Problem muss aus der realen Welt stammen und dessen Relevanz belegt sein.
-- **Design Cycle**: Artefakt wird iterativ gebaut und bewertet – keine einmalige Entwicklung.
-- **Rigor Cycle**: Die Lösung muss auf bestehendem Wissen aufbauen und neues Wissen generieren.
+**What this means for the thesis:**
+- **Relevance Cycle:** The problem must originate from the real world. Its relevance
+  must be supported by evidence — practitioner data, literature, or empirical observation —
+  not asserted without support.
+- **Design Cycle:** The artifact is built and assessed iteratively. A single development
+  pass without revision is not DSR.
+- **Rigor Cycle:** The design must build on existing knowledge and generate new knowledge
+  that goes beyond the specific artifact.
 
 ---
 
-## 4. DAS DSRM-PROZESSMODELL NACH PEFFERS ET AL. (2007)
+## 4. THE DSRM PROCESS MODEL (PEFFERS ET AL., 2007)
 
-Das DSRM ist das in Masterarbeiten am häufigsten verwendete Prozessmodell.
-Es besteht aus sechs Aktivitäten, die iterativ durchlaufen werden.
+The DSRM is the most commonly used process model in master's theses applying DSR.
+It consists of six activities traversed iteratively.
 
 ```
-1. Problem Identification & Motivation
-           ↓
+1. Problem Identification and Motivation
+              ↓
 2. Definition of Objectives for a Solution
-           ↓
-3. Design & Development
-           ↓
+              ↓
+3. Design and Development
+              ↓
 4. Demonstration
-           ↓
+              ↓
 5. Evaluation
-           ↓ (Feedback → zurück zu 3 oder 2)
+              ↓ (feedback → return to step 3 or 2)
 6. Communication
 ```
 
-**Wichtig:** Die Pfeile sind keine Einbahnstraße. Ergebnisse der Evaluation führen
-zurück zu Design & Development oder sogar zur Neudefinition der Ziele.
-Diese Rückkopplung muss in der Arbeit sichtbar und dokumentiert sein.
+**Important:** The DSRM is an ordering framework, not a strict linear sequence.
+Real DSR processes are often recursive, overlapping, and non-linear. The thesis
+must make this logic transparent — it must not artificially smooth the process
+into a neat six-step narrative when the actual work was more iterative and
+exploratory. Document what actually happened.
 
 ---
 
-## 5. ARTEFAKT-TYPEN NACH MARCH & SMITH (1995) / HEVNER ET AL. (2004)
+## 5. ARTIFACT TYPES (MARCH & SMITH, 1995; HEVNER ET AL., 2004)
 
-Das Artefakt muss klar klassifiziert und definiert werden. Es gibt vier Typen:
+The artifact must be clearly classified. Four types are recognized:
 
-| Typ | Beschreibung | Beispiele |
+| Type | Description | Examples |
 |---|---|---|
-| **Konstrukte** | Vokabular, Konzepte, Symbole | Taxonomie, Ontologie, Klassifikationsschema |
-| **Modelle** | Abstraktionen, Repräsentationen | Prozessmodell, Reifegradmodell, Referenzarchitektur |
-| **Methoden** | Algorithmen, Vorgehensweisen | Bewertungsframework, Analysemethode, Vorgehensmodell |
-| **Instanziierungen** | Realisierungen in der Umwelt | Software-Prototyp, implementiertes System |
+| **Constructs** | Vocabulary, concepts, symbols | Taxonomy, ontology, classification schema |
+| **Models** | Abstractions, representations | Process model, maturity model, reference architecture |
+| **Methods** | Algorithms, procedures | Evaluation framework, analysis method, procedure model |
+| **Instantiations** | Realized implementations | Software prototype, deployed system |
 
-**In der Arbeit muss stehen:**
-- Welchen Typ hat das Artefakt?
-- Warum ist dieser Typ die angemessene Lösung für das identifizierte Problem?
-- Was ist der wissenschaftliche Beitrag gegenüber dem Stand der Forschung?
+**Important:** Different artifact types require different design and evaluation logics.
+A software prototype is evaluated differently from a taxonomy or a reference model.
+The thesis must make explicit which type is being developed and why the evaluation
+approach chosen is appropriate for that type.
+
+| Artifact type | Typical evaluation focus |
+|---|---|
+| Construct / Taxonomy | Completeness, non-redundancy, clarity, expert review |
+| Model / Framework | Coverage, consistency, plausibility, expert validation |
+| Method / Procedure | Applicability, utility, usability, walkthrough evaluation |
+| Instantiation / Prototype | Functional correctness, usability, performance, field test |
+
+**In the thesis, the following must be stated:**
+- What type is the artifact, and why is this type the appropriate solution to the problem?
+- What is the scientific contribution beyond the state of the art?
+- For what context is the artifact intended, and where does it not apply?
 
 ---
 
-## 6. KAPITELSTRUKTUR EINER DSR-MASTERARBEIT
+## 6. ARTIFACT CONTEXT AND SCOPE
 
-Die Kapitelstruktur leitet sich aus dem DSRM-Prozess ab. Es gibt zwei valide Varianten:
+This aspect is frequently missing from student DSR theses and significantly weakens
+the contribution claim.
 
-### Variante A: Prozess-orientiert (DSRM transparent abgebildet)
+### What must be stated:
+- **Scope of applicability:** For what organizational type, sector, scale, or technical
+  environment is the artifact intended? What assumptions does it make about users, data
+  availability, and infrastructure?
+- **Boundaries of transferability:** Where does the artifact not apply, or require
+  adaptation before applying?
+- **Assumptions:** What organizational or technical preconditions must hold for the
+  artifact to function as designed?
+
+Without this, the contribution remains too vague to be assessed. An artifact developed
+and tested in a single SME context does not automatically generalize to large enterprises.
+This must be stated, not implied.
+
+---
+
+## 7. KERNEL THEORIES AND DESIGN RATIONALE
+
+Kernel theories are theoretical foundations from the knowledge base that inform and
+justify design decisions. They are a critical element of rigorous DSR and are
+frequently underdeveloped in student work.
+
+### What kernel theories must do in the thesis:
+- Explain *why* a design feature is expected to work (the mechanism)
+- Justify specific design decisions by reference to theoretical principles
+- Connect the artifact to a broader body of knowledge
+
+### What kernel theories must not do:
+- Appear only in the literature review without connection to design decisions
+- Be named as background without being used as actual justification
+- Be treated as decoration
+
+### How to write it:
+> "The notification design in component C follows the principles of interruption
+> management theory (Adamczyk & Bailey, 2004), which predicts that task completion
+> rates decrease when interruptions occur at non-breakpoint moments. The artifact
+> therefore delays alerts until natural task boundaries are detected."
+
+This is design rationale. Listing a theory without connecting it to a specific
+artifact feature is not.
+
+---
+
+## 8. CHAPTER STRUCTURE OF A DSR MASTER'S THESIS
+
+### Variant A: Process-oriented (DSRM made explicit)
+
 ```
-1. Einleitung
-   1.1 Problemstellung & Motivation          [→ DSRM: Problem Identification]
-   1.2 Forschungsfrage & Zielsetzung
-   1.3 Abgrenzung
-   1.4 Forschungsmethodik (DSR begründen)
-   1.5 Aufbau der Arbeit
-
-2. Theoretische Grundlagen & Stand der Forschung
-   2.1 Relevante Konzepte und Theorien       [→ DSRM: Rigor Cycle / Wissensbasis]
-   2.2 Verwandte Artefakte und Lösungsansätze
-   2.3 Forschungslücke (Gap)
-
-3. Anforderungsanalyse                       [→ DSRM: Objectives of a Solution]
-   3.1 Meta-Requirements ableiten
-   3.2 Evaluationskriterien definieren
-
-4. Artefaktdesign & -entwicklung            [→ DSRM: Design & Development]
-   4.1 Designentscheidungen und Begründung
-   4.2 Iterationsschritte dokumentieren
-   4.3 Ergebnis: Das Artefakt
-
-5. Demonstration                             [→ DSRM: Demonstration]
-   5.1 Anwendungskontext / Use Case
-   5.2 Anwendung des Artefakts
-
-6. Evaluation                                [→ DSRM: Evaluation]
-   6.1 Evaluationsstrategie
-   6.2 Durchführung und Ergebnisse
-   6.3 Reflexion und Iteration
-
-7. Diskussion
-   7.1 Wissenschaftlicher Beitrag (Designwissen)
-   7.2 Praktische Implikationen
-   7.3 Limitationen
-   7.4 Zukünftige Forschung
-
-8. Fazit
-
-Literaturverzeichnis
-Anhang (Interviewleitfäden, Rohdaten, Code, Iterationsdetails)
-```
-
-### Variante B: Inhaltlich-orientiert (DSRM-Bezug im Methodenkapitel)
-DSR wird im Methodenkapitel (1.4) vollständig erläutert und die Kapitel tragen inhaltliche
-statt prozessorientierte Überschriften. Beide Varianten sind akzeptiert – Variante A ist
-für Masterarbeiten transparenter und wird von Gutachtern bevorzugt.
-
----
-
-## 7. WIE JEDES KAPITEL GESCHRIEBEN WIRD
-
-### Kapitel 1: Einleitung
-
-**Was muss rein:**
-- Problemstellung: Warum ist das Problem relevant? Belegt durch Praxisdaten, Literatur oder empirische Beobachtungen – nicht durch Behauptungen.
-- Forschungsfrage: Präzise formuliert. Für DSR typisch: „Wie kann [Artefakt] entwickelt werden, das [Problem] in [Kontext] löst?"
-- Begründung von DSR: Warum ist DSR die richtige Methode für *dieses* Problem? Nicht nur DSR beschreiben, sondern aktiv begründen.
-- Abgrenzung: Was leistet die Arbeit *nicht*?
-
-**Typischer Fehler:** DSR wird nur beschrieben, nicht begründet. Ein Satz wie
-„Diese Arbeit folgt der DSR-Methodik nach Peffers et al. (2007)" reicht nicht.
-Es muss erklärt werden, warum DSR und nicht z. B. eine qualitative Fallstudie.
-
-**Gutes Muster:**
-> „Da das Ziel der Arbeit in der Gestaltung eines [Artefakttyps] liegt, der ein bislang
-> ungelöstes Problem in [Kontext] adressiert, wird das Forschungsparadigma des
-> Design Science Research gewählt (Hevner et al., 2004). Im Gegensatz zu rein
-> erklärenden Ansätzen des Behavioral Science ermöglicht DSR die Generierung von
-> Gestaltungswissen durch das Erstellen und Evaluieren von Artefakten (Hevner, 2007).
-> Das Vorgehensmodell von Peffers et al. (2007) strukturiert dabei den Forschungsprozess
-> in sechs iterativen Aktivitäten."
-
----
-
-### Kapitel 2: Theoretische Grundlagen & Stand der Forschung
-
-**Was muss rein:**
-- Nur Theorie, die direkt relevant für das Artefaktdesign ist – kein enzyklopädisches Überblickskapitel.
-- Kritische Diskussion verwandter Artefakte: Was existiert bereits? Warum löst es das Problem nicht ausreichend? → Das ist die Forschungslücke.
-- Kernel Theories: Welche Theorien aus der Wissensbasis (Rigor Cycle) fundieren das Design?
-
-**Typischer Fehler:** Verwandte Artefakte werden nur aufgelistet, nicht kritisch bewertet.
-Die Forschungslücke muss aus der Literaturanalyse *folgen*, nicht behauptet werden.
-
-**Struktur innerhalb des Kapitels:**
-1. Grundlegende Konzepte definieren (nur was für das Artefakt notwendig ist)
-2. Verwandte Lösungsansätze darstellen und kritisch vergleichen
-3. Forschungslücke explizit benennen: „Die analysierten Ansätze adressieren [Lücke] nicht, weil..."
-
----
-
-### Kapitel 3: Anforderungsanalyse (Meta-Requirements)
-
-**Was muss rein:**
-- Meta-Requirements: Was muss das Artefakt leisten, um das Problem zu lösen?
-- Herleitung der Anforderungen aus dem Problemraum (Relevance Cycle) und der Literatur (Rigor Cycle).
-- Evaluationskriterien: Wie wird später gemessen, ob das Artefakt die Anforderungen erfüllt?
-
-**Warum dieses Kapitel entscheidend ist:**
-Ohne klar definierte Meta-Requirements und Evaluationskriterien *vor* dem Design
-kann keine valide Evaluation stattfinden. Wer erst nach dem Bauen definiert,
-was gut ist, bewertet zirkulär.
-
-**Typischer Fehler:** Anforderungen werden im Nachhinein an das fertige Artefakt angepasst.
-Das ist wissenschaftlich nicht zulässig und fällt Gutachtern auf.
-
----
-
-### Kapitel 4: Artefaktdesign & -entwicklung
-
-**Was muss rein:**
-- Designentscheidungen explizit begründen: Warum wurde das Artefakt so und nicht anders gestaltet?
-- Bezug auf Wissensbasis: Welche Theorien, Modelle oder verwandten Artefakte haben das Design beeinflusst?
-- Iterationen dokumentieren: Wie hat sich das Design von Iteration zu Iteration verändert und warum?
-- Ergebnis: Das fertige Artefakt klar und vollständig beschreiben.
-
-**Iterationen schreiben:**
-Jede Iteration folgt dem Schema:
-1. Ausgangsstand / Ziel der Iteration
-2. Designentscheidungen in dieser Iteration
-3. Zwischenergebnis
-4. Erkenntnisse (was hat nicht funktioniert, was wurde angepasst?)
-
-**Typischer Fehler:** Das Artefakt erscheint als monolithisches Ergebnis ohne Entwicklungsweg.
-Gutachter wollen sehen, *wie* das Artefakt entstanden ist, nicht nur *was* entstanden ist.
-
----
-
-### Kapitel 5: Demonstration
-
-**Was muss rein:**
-- Anwendungskontext: In welchem realistischen Szenario wird das Artefakt angewendet?
-- Durchführung: Schritt-für-Schritt-Anwendung des Artefakts auf den Use Case.
-- Ziel der Demonstration: Zeigen, dass das Artefakt *anwendbar* ist – nicht, dass es *gut* ist (das ist Aufgabe der Evaluation).
-
-**Abgrenzung Demonstration vs. Evaluation:**
-- Demonstration: Zeigt Anwendbarkeit (kann das Artefakt überhaupt eingesetzt werden?)
-- Evaluation: Bewertet Qualität und Nutzen gegen definierte Kriterien
-
-Diese Trennung ist konzeptionell wichtig und muss in der Arbeit klar sein.
-
----
-
-### Kapitel 6: Evaluation – Das kritischste Kapitel
-
-**Was muss rein:**
-
-#### 6.1 Evaluationsstrategie (vor der Durchführung)
-- Welche Evaluationsmethode wird gewählt und warum?
-- Wann findet die Evaluation statt (Ex-ante vs. Ex-post)?
-- Gegen welche Kriterien wird evaluiert? (→ aus Kapitel 3 übernehmen)
-
-#### Evaluationsmethoden im DSR (nach Hevner et al., 2004; Venable et al., 2016):
-
-| Methode | Beschreibung | Geeignet wenn... |
-|---|---|---|
-| **Experteninterview / Expertenbefragung** | Strukturierte Befragung von Fachexperten | Artefakt noch nicht implementierbar; qualitative Bewertung |
-| **Fokusgruppe** | Gruppenbasierte Bewertung | Mehrere Perspektiven nötig |
-| **Fallstudie** | Anwendung in realem Kontext | Realer Zugang vorhanden |
-| **Experiment** | Kontrollierte Testbedingungen | Messung spezifischer Effekte |
-| **Szenario-basierte Evaluation** | Bewertung anhand definierter Szenarien | Prototyp oder Konzept |
-| **Simulation** | Rechnergestützte Nachbildung | Komplexe Systeme |
-| **Analytische Evaluation** | Logische Prüfung gegen Kriterien | Konzeptuelle Artefakte |
-
-#### Ex-ante vs. Ex-post:
-- **Ex-ante**: Bewertung *während* der Entwicklung (formativ) – beeinflusst das Design
-- **Ex-post**: Bewertung *nach* der Entwicklung (summativ) – bewertet das fertige Artefakt
-- Für 1,0-Arbeiten: Mindestens eine formative (ex-ante) und eine summative (ex-post) Evaluation.
-
-#### 6.2 Durchführung der Evaluation
-- Evaluation gegen die in Kapitel 3 definierten Kriterien
-- Ergebnisse strukturiert darstellen (Tabelle: Kriterium → Befund → Bewertung)
-- Negative Befunde berichten – kein selektives Reporting
-
-#### 6.3 Iterative Reflexion
-- Was hat die Evaluation ergeben?
-- Welche Konsequenzen hatte das für das Artefakt? (→ Rückkopplung in den Design Cycle)
-- Wenn keine Iteration mehr möglich war: Warum, und was würde eine weitere Iteration leisten?
-
-**Typischer Fehler:** Die Evaluation wird nur positiv berichtet. Eine Masterarbeit, in der
-das Artefakt alle Kriterien vollständig erfüllt, wirkt unglaubwürdig. Gutachter erwarten
-kritische Reflexion: Was wurde nicht erreicht? Warum? Was folgt daraus?
-
-**Gutes Muster für eine Evaluationsaussage:**
-> „Kriterium K3 (Skalierbarkeit) wurde in der durchgeführten Evaluation nur teilweise erfüllt.
-> Die Experteninterviews zeigten, dass das Artefakt für Unternehmensgrößen unter 500 Mitarbeitenden
-> geeignet ist, jedoch bei größeren Organisationen Anpassungsbedarf im Bereich [X] besteht.
-> Diese Einschränkung wurde in der finalen Artefaktversion durch [Maßnahme] adressiert;
-> eine vollständige Validierung für Großunternehmen bleibt Gegenstand zukünftiger Forschung."
-
----
-
-### Kapitel 7: Diskussion
-
-**Was muss rein:**
-
-#### 7.1 Wissenschaftlicher Beitrag – Designwissen explizit formulieren
-Das ist das Herzstück jeder DSR-Arbeit. Designwissen geht über das konkrete Artefakt hinaus
-und beschreibt verallgemeinerbare Erkenntnisse. Drei Ebenen nach Gregor & Hevner (2013):
-
-- **Artefakt-Beitrag**: Das Artefakt selbst als Lösung für ein spezifisches Problem
-- **Design-Prinzipien**: Verallgemeinerbare Gestaltungsregeln, die aus dem Artefakt abgeleitet werden
-- **Designtheorie**: Abstrakte, theoretische Erkenntnisse (in Masterarbeiten selten vollständig erreichbar)
-
-Für eine Masterarbeit ist es realistisch, mindestens Artefakt-Beitrag und einige Design-Prinzipien
-zu formulieren.
-
-**Wie Design-Prinzipien formuliert werden:**
-> „DP1: Um [Ziel] in [Kontext] zu erreichen, sollte das System [Gestaltungsmerkmal] aufweisen,
-> damit [Mechanismus] ermöglicht wird."
-
-#### 7.2 Praktische Implikationen
-- Was bedeuten die Ergebnisse für Praktiker?
-- Wie kann das Artefakt eingesetzt werden?
-
-#### 7.3 Limitationen – ohne Weichzeichner
-- Einschränkungen der Evaluationsmethode klar benennen
-- Generalisierbarkeit der Ergebnisse einschätzen
-- Kein Kleinreden: Limitationen sind kein Eingeständnis von Schwäche, sondern Ausdruck wissenschaftlicher Redlichkeit.
-
-#### 7.4 Zukünftige Forschung
-- Konkrete, anschließbare Forschungsfragen – keine allgemeine Einladung, „weitere Studien durchzuführen"
-
----
-
-## 8. DIE 7 LEITLINIEN NACH HEVNER ET AL. (2004) ALS PRÜFRASTER
-
-Jede Masterarbeit mit DSR muss diese Leitlinien erfüllen. Sie sind gleichzeitig ein
-Prüfraster für Gutachter und sollten aktiv in der Arbeit referenziert werden.
-
-| Leitlinie | Was sie verlangt | Typischer Fehler |
-|---|---|---|
-| **L1: Design als Artefakt** | Ein konkretes, evaluierbares Artefakt muss entstehen | Kein klares Artefakt definiert |
-| **L2: Problemrelevanz** | Das Problem muss praxisrelevant und wichtig sein | Relevanz nur behauptet, nicht belegt |
-| **L3: Designevaluation** | Das Artefakt muss rigoros evaluiert werden | Evaluation zu kurz, nur positiv |
-| **L4: Forschungsbeiträge** | Neues Wissen (Artefakt, Methode, Theorie) | Beitrag nicht klar formuliert |
-| **L5: Forschungsstrenge** | Rigorose Methoden in Entwicklung und Evaluation | Methodenwahl nicht begründet |
-| **L6: Design als Suchprozess** | Iteratives Vorgehen, keine einmalige Lösung | Kein Iterationsnachweis |
-| **L7: Kommunikation** | Ergebnisse für Forscher *und* Praktiker kommuniziert | Diskussion fehlt |
-
----
-
-## 9. WIE ITERATION IN DER ARBEIT DARGESTELLT WIRD
-
-Iteration ist kein Bonus, sondern ein konstitutives Merkmal von DSR.
-Sie muss sichtbar, dokumentiert und reflektiert sein.
-
-### Mindestanforderung für eine 1,0-Arbeit:
-- Mindestens **zwei nachvollziehbare Iterationsschritte** im Designprozess
-- Pro Iteration: Ausgangslage → Entscheidung → Ergebnis → Erkenntnis
-- Die Evaluation einer Iteration führt nachweislich zu einer Änderung im Design
-
-### Wie Iteration im Text aussieht:
-```
-Iteration 1 (Initialentwurf):
-Ausgehend von den in Kapitel 3 definierten Meta-Requirements wurde ein erster
-Entwurf des Artefakts entwickelt. Im Rahmen einer ex-ante Evaluation durch zwei
-Fachexperten (Iteration 1, vgl. Anhang A) zeigte sich, dass [Schwäche X] das
-Kriterium K2 (Vollständigkeit) nicht ausreichend adressiert. Daraufhin wurde...
-
-Iteration 2 (Überarbeitung):
-Auf Basis der Erkenntnisse aus Iteration 1 wurde [Komponente Y] grundlegend
-überarbeitet. Konkret wurden [Änderungen] vorgenommen, um [Schwäche X] zu beheben.
-Der überarbeitete Entwurf wurde in einer zweiten Expertenbefragung evaluiert...
+1. Introduction
+   1.1 Problem statement and motivation        [→ DSRM: Problem Identification]
+   1.2 Research question(s) and objectives
+   1.3 Delimitation
+   1.4 Research methodology (justify DSR)
+   1.5 Structure of the thesis
+
+2. Theoretical background and state of research
+   2.1 Relevant concepts and kernel theories   [→ DSRM: Rigor Cycle]
+   2.2 Related artifacts and existing solutions
+   2.3 Research gap
+
+3. Requirements analysis                       [→ DSRM: Objectives of a Solution]
+   3.1 Deriving meta-requirements
+   3.2 Defining evaluation criteria
+
+4. Artifact design and development             [→ DSRM: Design and Development]
+   4.1 Design decisions and justification
+   4.2 Documenting iterations
+   4.3 The artifact
+
+5. Demonstration                               [→ DSRM: Demonstration]
+   5.1 Application context / use case
+   5.2 Applying the artifact
+
+6. Evaluation                                  [→ DSRM: Evaluation]
+   6.1 Evaluation strategy
+   6.2 Execution and results
+   6.3 Reflection and iteration
+
+7. Discussion
+   7.1 Scientific contribution (design knowledge)
+   7.2 Practical implications
+   7.3 Limitations
+   7.4 Future research
+
+8. Conclusion
+
+References
+Appendix (interview guides, raw data, code, iteration logs)
 ```
 
+### Variant B: Content-oriented
+DSR is explained fully in the methodology section (1.4). Chapter headings are
+content-based rather than process-based. Both variants are accepted; Variant A
+is more transparent for examiners and is generally preferred.
+
 ---
 
-## 10. HÄUFIGE FEHLER IN DSR-MASTERARBEITEN UND WIE MAN SIE VERMEIDET
+## 9. WRITING EACH CHAPTER
 
-| Fehler | Warum kritisch | Lösung |
+### Chapter 1: Introduction
+
+**Required content:**
+- **Problem statement:** Why is the problem relevant? Supported by practitioner data,
+  literature, or empirical observation — not asserted without evidence.
+- **Research question:** Precisely formulated. Typical DSR form: "How can [artifact]
+  be designed to address [problem] in [context]?"
+- **Justification of DSR:** Why is DSR the right method for *this* problem? This
+  requires more than a one-sentence label. It must explain why a constructive approach
+  is appropriate over explanatory alternatives.
+- **Delimitation:** What does the thesis explicitly *not* do?
+
+**Common mistake:** DSR is described but not justified. Citing Peffers et al. without
+explaining why DSR fits the research question is insufficient.
+
+**Model phrasing:**
+> "Since the objective is to design a [artifact type] that addresses an unresolved
+> problem in [context], this thesis adopts the Design Science Research paradigm
+> (Hevner et al., 2004). Unlike explanatory approaches in the behavioral science
+> tradition, DSR generates design knowledge through the creation and evaluation of
+> artifacts (Hevner, 2007). The process model of Peffers et al. (2007) structures
+> the research process into six iterative activities."
+
+---
+
+### Chapter 2: Theoretical Background and State of Research
+
+**Required content:**
+- Only theory directly relevant to the artifact design — not an encyclopedic survey.
+- Critical assessment of related artifacts: what exists already, and why does it not
+  adequately solve the problem? This is the research gap.
+- Kernel theories: which theoretical foundations from the knowledge base inform the design,
+  and how (see Section 7)?
+
+**Internal structure:**
+1. Define foundational concepts (only what the artifact requires)
+2. Present and critically compare related solutions
+3. State the research gap explicitly: "The analyzed approaches do not address [gap] because..."
+
+**Common mistake:** Related artifacts are listed rather than critically compared.
+The research gap must *follow* from the analysis, not be asserted before it.
+
+---
+
+### Chapter 3: Requirements Analysis (Meta-Requirements)
+
+**Required content:**
+- **Meta-requirements:** What must the artifact accomplish to solve the problem?
+  Derived from the problem space (Relevance Cycle) and the literature (Rigor Cycle).
+- **Evaluation criteria:** How will it be determined whether the artifact meets the
+  requirements? These criteria must be defined here, before design begins.
+
+**Why this chapter is decisive:**
+Without clearly defined meta-requirements and evaluation criteria *before* design,
+no valid evaluation is possible. Criteria defined after the artifact is built confirm
+the design rather than test it. This is a circular reasoning error that examiners
+identify quickly.
+
+**Common mistake:** Requirements are adjusted retrospectively to match the completed
+artifact. This invalidates the evaluation.
+
+---
+
+### Chapter 4: Artifact Design and Development
+
+**Required content:**
+- **Justified design decisions:** Why was the artifact designed in this way and not
+  another? Each significant decision must be grounded in the knowledge base or the
+  requirements.
+- **Connection to kernel theories:** Which theories influenced which design choices,
+  and how?
+- **Documented iterations:** How did the design change from one iteration to the next,
+  and why? (See Section 10 for iteration documentation format.)
+- **The artifact itself:** Fully and clearly described as the outcome.
+
+**On iteration completeness:**
+The number of iterations is less important than their quality. One well-documented,
+evaluatively motivated revision is more valuable than three superficial passes.
+The minimum standard is: at least one traceable, evaluatively grounded revision of
+the artifact. Multiple iterations increase persuasiveness if they are substantively
+documented.
+
+**Common mistake:** The artifact appears as a finished product without a development
+path. Examiners want to see how the artifact came to be, not only what it is.
+
+---
+
+### Chapter 5: Demonstration
+
+**Required content:**
+- **Application context:** In what realistic scenario is the artifact applied?
+- **Execution:** Step-by-step application of the artifact to the use case.
+- **Purpose:** To show that the artifact is *applicable* — not that it is *good*.
+  Quality assessment is the task of the Evaluation chapter.
+
+**Demonstration vs. Evaluation — a critical distinction:**
+- Demonstration shows *applicability*: can the artifact be used at all?
+- Evaluation assesses *quality and utility* against predefined criteria.
+
+These two are conceptually distinct and must be kept structurally separate in the thesis.
+Note that a single activity can serve both functions if this is made explicit — but
+conflating the two without acknowledgment is a structural error.
+
+---
+
+### Chapter 6: Evaluation — The Most Scrutinized Chapter
+
+#### 6.1 Evaluation Strategy (stated before execution)
+
+**Required content:**
+- Which evaluation method is chosen, and why is it appropriate for this artifact type?
+- When does evaluation occur: ex-ante (formative, during development) or ex-post
+  (summative, after completion)?
+- Against which criteria is the evaluation conducted? (Reference: Chapter 3)
+- Who evaluates, why these specific evaluators, and what constitutes an adequate number?
+- What data are collected and how are they analyzed?
+- What are the possible sources of bias?
+
+**A high-quality DSR thesis justifies its evaluation strategy explicitly and selects
+a combination of formative and/or summative evaluation appropriate to the artifact type.
+There is no universal minimum — the evaluation architecture must fit the artifact
+and the research question.**
+
+#### Evaluation methods in DSR (after Hevner et al., 2004; Venable et al., 2016):
+
+| Method | Description | Appropriate when... |
 |---|---|---|
-| DSR nur als Label, nicht als Methode | Gutachter erkennen, wenn DSR-Logik fehlt | Alle 6 DSRM-Schritte explizit adressieren |
-| Kein klares Artefakt definiert | Leitlinie 1 verletzt | Artefakttyp, -name und -grenzen früh festlegen |
-| Evaluation erst am Ende, einmalig | Design Cycle fehlt | Formative Evaluation in den Designprozess einbauen |
-| Positive Evaluation ohne Einschränkungen | Unglaubwürdig | Negative Befunde berichten und reflektieren |
-| Designentscheidungen unbegründet | Rigor Cycle fehlt | Jede Entscheidung auf Wissensbasis referenzieren |
-| Forschungslücke behauptet, nicht hergeleitet | Mangelnde Literaturarbeit | Gap aus kritischem Vergleich verwandter Artefakte ableiten |
-| Meta-Requirements nach dem Design definiert | Zirkelschluss | Anforderungen *vor* dem Design festlegen und fixieren |
-| Keine Design-Prinzipien formuliert | Wissenschaftlicher Beitrag unklar | Mindestens 3–5 DP im Diskussionskapitel formulieren |
-| Iterationen nicht dokumentiert | Leitlinie 6 verletzt | Iterationslog im Anhang, Zusammenfassung im Text |
+| Expert interview | Structured expert assessment | Artifact not yet implementable; qualitative judgment needed |
+| Focus group | Group-based evaluation | Multiple perspectives required |
+| Case study | Application in real context | Real-world access available |
+| Experiment | Controlled test conditions | Measuring specific effects |
+| Scenario-based evaluation | Assessment against defined scenarios | Prototype or conceptual artifact |
+| Simulation | Computational modeling | Complex systems |
+| Analytical evaluation | Logical assessment against criteria | Conceptual artifacts (taxonomies, models) |
+
+#### Ex-ante vs. ex-post:
+- **Ex-ante (formative):** Assessment during development — shapes the design
+- **Ex-post (summative):** Assessment after completion — evaluates the finished artifact
+
+For theses aiming at a distinction grade, a methodically justified, multi-stage
+evaluation is particularly persuasive. The combination of formative and summative
+methods should be the goal where the artifact type and available context permit it.
+
+#### 6.2 Execution and Results
+
+- Evaluate against the criteria defined in Chapter 3
+- Present results in structured form (table: criterion → finding → assessment)
+- **Report negative findings.** A thesis in which the artifact fully meets all criteria
+  is not credible. Examiners expect critical reflection: what was not achieved, why not,
+  and what follows from this?
+
+#### 6.3 Iterative Reflection
+
+- What did the evaluation reveal?
+- What consequences did this have for the artifact? (→ feedback into the Design Cycle)
+- If no further iteration was possible: why not, and what would a further iteration
+  address?
+
+**Model evaluation statement:**
+> "Criterion K3 (scalability) was only partially met in the evaluation conducted.
+> Expert interviews indicated that the artifact is suited to organizations of up to
+> 500 employees but requires adaptation in the area of [X] for larger organizations.
+> This limitation was addressed in the final artifact version through [measure];
+> full validation for enterprise-scale deployment remains a subject for future research."
 
 ---
 
-## 11. ANWEISUNG AN DAS LLM
+### Chapter 7: Discussion
 
-Wenn du an einer DSR-Masterarbeit arbeitest:
+#### 7.1 Scientific Contribution — Design Knowledge
 
-1. **Artefakt-Check**: Ist das Artefakt klar definiert (Typ, Name, Abgrenzung)? Falls nicht, frage nach.
-2. **Zyklen-Check**: Sind Relevance, Design und Rigor Cycle erkennbar in der Struktur?
-3. **Iterationscheck**: Gibt es dokumentierte Iterationsschritte mit Rückkopplung?
-4. **Evaluationscheck**: Sind Methode, Kriterien und negative Befunde vorhanden?
-5. **Beitragscheck**: Sind Design-Prinzipien oder andere Formen von Designwissen formuliert?
-6. **Zirkelcheck**: Wurden Meta-Requirements und Evaluationskriterien *vor* dem Design festgelegt?
+This is the core of every DSR thesis. Design knowledge goes beyond the specific
+artifact and states generalizable insights. Three levels after Gregor and Hevner (2013):
 
-Wenn eines dieser Elemente fehlt, weise explizit darauf hin:
-„Das Evaluationskapitel bewertet nur positiv gegen selbstdefinierte Kriterien –
-das verletzt Leitlinie L3 nach Hevner et al. (2004). Ergänze negative Befunde und
-zeige, wie sie das Design beeinflusst haben."
+- **Artifact contribution:** The artifact itself as a solution to a specific problem
+- **Design principles:** Generalizable design rules derived from the artifact and the
+  evaluation process
+- **Design theory:** Abstract, theoretical insight (rarely fully achievable in a
+  master's thesis)
+
+For a master's thesis, a realistic target is: a clearly described artifact contribution
+and a set of design principles that are genuinely derived from the design process —
+not retrofitted after the fact.
+
+**How to formulate design principles:**
+> "DP1: To achieve [goal] in [context], the system should incorporate [design feature],
+> enabling [mechanism]."
+
+**How many design principles:** Quality over quantity. Two design principles with
+genuine theoretical grounding and clear derivation from the evaluation are more
+valuable than five generic phrases. State only what the evidence and the design
+process actually support.
+
+#### 7.2 Practical Implications
+- What do the results mean for practitioners?
+- How can the artifact be deployed, and under what conditions?
+
+#### 7.3 Limitations — Four Levels
+
+Limitations must be addressed on all four levels:
+
+| Level | What to address |
+|---|---|
+| Data | Sample size, selection, access constraints, data quality |
+| Method | Constraints inherent to the chosen approach; validity threats |
+| Context | Organizational, sectoral, or technical specificity of the findings |
+| Generalizability | What the artifact and findings can and cannot be transferred to |
+
+Limitations are not an admission of failure. They are an expression of scientific
+honesty and a sign of methodological maturity. Examiners look for them.
+
+#### 7.4 Future Research
+Concrete, addressable research questions — not a general invitation to "conduct
+further studies."
+
+---
+
+## 10. DOCUMENTING ITERATIONS
+
+Iteration is not a bonus feature but a constitutive property of DSR.
+It must be visible, documented, and reflected.
+
+### What must be documented per iteration:
+1. Starting state and goal of the iteration
+2. Design decisions made in this iteration
+3. Intermediate result
+4. Findings — what did not work, what was changed, and why?
+
+### On iteration boundaries:
+Iteration ends not at perfection but when the defined objectives have been
+addressed to a reasonable degree, or when remaining deficiencies are transparently
+justified. In a master's thesis, it is acceptable to acknowledge that further
+iterations would be desirable — as long as the current state is honestly assessed.
+
+### Example iteration write-up:
+```
+Iteration 1 (initial draft):
+Based on the meta-requirements defined in Chapter 3, a first draft of the artifact
+was developed. An ex-ante evaluation by two domain experts (see Appendix A)
+revealed that [weakness X] did not adequately address criterion K2 (completeness).
+Specifically, [component Y] lacked coverage of [aspect Z]. The artifact was revised
+to address this finding.
+
+Iteration 2 (revised version):
+Building on the findings of Iteration 1, [component Y] was substantially redesigned.
+The changes consisted of [specific modifications], intended to resolve [weakness X].
+The revised version was evaluated in a second expert assessment...
+```
+
+---
+
+## 11. THE SEVEN GUIDELINES (HEVNER ET AL., 2004)
+
+Every DSR thesis must address these guidelines. They serve as both a design framework
+and an examiner checklist.
+
+| Guideline | What it requires | Common failure |
+|---|---|---|
+| **G1: Design as artifact** | A concrete, evaluable artifact must be produced | Artifact type undefined or unclear |
+| **G2: Problem relevance** | The problem must be practically important | Relevance only asserted, not evidenced |
+| **G3: Design evaluation** | The artifact must be rigorously evaluated | Evaluation too brief or exclusively positive |
+| **G4: Research contributions** | New knowledge produced (artifact, method, theory) | Contribution not explicitly stated |
+| **G5: Research rigor** | Rigorous methods in both development and evaluation | Method selection unjustified |
+| **G6: Design as a search process** | Iterative process, not a one-shot solution | No iteration evidence |
+| **G7: Communication of research** | Results communicated to both researchers and practitioners | Discussion chapter absent or underdeveloped |
+
+---
+
+## 12. CONTRIBUTION TYPES IN DSR
+
+"Contribution" must be specified, not merely claimed. The table below shows
+the recognized types and what is needed to substantiate each:
+
+| Contribution type | What it consists of | Substantiation required |
+|---|---|---|
+| New artifact | An artifact that does not previously exist | Evidence of gap; evaluation of the artifact |
+| Improved artifact | Enhancement of an existing artifact | Documented deficiency in prior work; comparative evaluation |
+| Context-specific adaptation | Transfer of existing artifact to new context | Justification for why adaptation is needed; evaluation in new context |
+| Set of design principles | Generalizable rules derived from the design process | Explicit derivation from evaluation; theoretical grounding |
+| Design theory (partial) | Abstract claims about design that go beyond a single artifact | Theoretical integration; multiple instantiations (rare in master's theses) |
+
+---
+
+## 13. COMMON ERRORS AND HOW TO AVOID THEM
+
+| Error | Why it matters | Correction |
+|---|---|---|
+| DSR used as a label without applying its logic | Examiners recognize missing DSR structure | Address all six DSRM activities explicitly |
+| No clearly defined artifact | Violates G1 | Define artifact type, name, and scope early |
+| Evaluation conducted only once, at the end | Design Cycle is absent | Build formative evaluation into the design process |
+| Evaluation reports only positive findings | Lacks credibility | Report negative findings; show how they influenced the design |
+| Design decisions unjustified | Rigor Cycle is absent | Ground each decision in the knowledge base or requirements |
+| Research gap asserted without derivation | Weak literature work | Derive the gap from critical comparison of related artifacts |
+| Meta-requirements defined after design | Circular reasoning; invalidates the evaluation | Fix requirements before design begins |
+| Design principles absent from discussion | Scientific contribution is unclear | Derive principles explicitly from the evaluation; justify each |
+| Iterations not documented | Violates G6 | Include iteration log in appendix; summarize in main text |
+| Kernel theories listed but not connected to design | Decoration without function | Show explicitly which design decision each theory informs |
+| Artifact scope not defined | Contribution is unassessable | State the context, assumptions, and limits of applicability |
+
+---
+
+## 14. DSR THESIS CHECKLIST
+
+Use this list to evaluate completeness before submitting any chapter.
+
+**Artifact and framing:**
+- [ ] Artifact type is defined (construct, model, method, or instantiation)
+- [ ] Artifact name and scope are clearly stated
+- [ ] Context and applicability limits are specified
+
+**DSR logic:**
+- [ ] All three cycles (Relevance, Design, Rigor) are traceable in the thesis structure
+- [ ] All six DSRM activities are addressed
+- [ ] DSR is justified for this research question, not merely labeled
+- [ ] Kernel theories are connected to specific design decisions
+
+**Requirements and evaluation:**
+- [ ] Meta-requirements and evaluation criteria are defined before design begins
+- [ ] Evaluation method is appropriate for the artifact type
+- [ ] Evaluators and context are described
+- [ ] Negative findings are reported
+- [ ] Evaluation results are linked back to the criteria from Chapter 3
+
+**Iteration:**
+- [ ] At least one evaluatively motivated revision is documented
+- [ ] Each iteration includes: starting state, decisions, result, and findings
+- [ ] Iteration boundaries and stopping rationale are stated
+
+**Contribution:**
+- [ ] Contribution type is explicitly identified
+- [ ] Design principles are stated and derived from the evaluation
+- [ ] Generalizability and limitations are addressed on all four levels
+  (data, method, context, generalizability)
+
+**Formal:**
+- [ ] Core DSR references are included and used substantively
+- [ ] All figures, tables, and appendix items are numbered and referenced
+- [ ] Iteration documentation is available in the appendix
