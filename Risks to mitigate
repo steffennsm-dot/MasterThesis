@@ -41,3 +41,9 @@
   - Absicherung:
 LLM-Judging nie allein verwenden.
 Besser:  wo möglich objektive Ground-Truth-Metriken bei offenen Antworten Rubrics + menschliche Stichprobenprüfung. Interrater-Abgleich zumindest auf Teilmenge
+
+
+09 Scope / Überfrachtung der Arbeit
+- Research Question, Sub-Questions, and Hypothese Hier muss die Arbeit in ihrem Kern fokussiert werden. Der Leser muss sofort verstehen: Der primäre Beitrag ist nicht “alles”, sondern der task-level comparison plus TADF.
+- Design Science Research Positioning and Methodology Overview. Hier erklärst du die Logik der Arbeit als DSR-Zyklus und machst klar, welche Teile Kernartefakt, unterstützende Evaluation, und exemplarische Demonstration sind.
+- Limitations and Temporal Validity. Hier sagst du offen, dass einzelne Bestandteile bewusst begrenzt sind und nicht alle denselben empirischen Status haben.
