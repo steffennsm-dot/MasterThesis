@@ -1,0 +1,43 @@
+01 Verankere die Workflow-Agent-Unterscheidung zusätzlich in einer peer-reviewten Quelle.
+
+02 Die zentrale Vergleichslogik “Workflow vs. Agent” ist noch nicht vollständig trennscharf
+  - Das Problem: In der Praxis ist die Grenze zwischen “Workflow” und “Agent” oft unscharf, gerade in LangGraph.
+  - Wir brauchen ein sehr explizites Implementierungsprotokoll:
+    - as ist per Definition ein Workflow-Node?
+    - Was ist per Definition ein Agent-Node?
+    - Welche Elemente sind in beiden Varianten identisch?
+    - Welche Freiheitsgrade haben beide Paradigmen?
+
+03 Die Aggregate Performance Score (APS) ist methodisch ein potenzieller Angriffspunkt
+  - Ein Prüfer könnte sagen: “Warum ist ein einzelner Gesamtscore hier überhaupt sinnvoll? Warum nicht Multi-Criteria-Analyse ohne harte Aggregation?”
+  - Absicherung: APS nicht als einzige Entscheidungsbasis positionieren.
+  - APS als sekundären Syntheseindikator darstellen mit Ausblick für Routing knoten in Workflows. Primär auf dimensionsspezifische Profile schauen. Sensitivitätsanalyse der Gewichte einplanen.
+
+04 Die Hypothesen sind teilweise eher programmatisch als testbar formuliert
+  - Absicherung: H1 enger formulieren, etwa: “Bestimmte task characteristics sind signifikant mit relativer Vorteilsrichtung des Paradigmas assoziiert.” Das ist testbarer als “predictable”.
+  - Absicherung. H3 ebenfalls schärfer ggf. Nicht pauschal “höherer APS”, sondern unter welchen Bedingungen und bei welchen Profilen. ... erzielt ein günstigeres Kosten-Robustheits-Qualitäts-Profil als Monoparadigma-Varianten.”
+
+05 Der Use Case ist potenziell zu speziell
+  - Usecase nochmal neu definieren und Den Case explizit als “exemplarischen SME-Prozess” rahmen, nicht als Repräsentanten aller SME-Prozesse. Und schon in der Diskussion sauber trennen: analytische Generalisierung des TADF vs. statistische Generalisierung des Cases
+  - 
+
+06 SME-Fokus ist relevant, aber noch nicht vollständig operationalisiert
+  - Du argumentierst überzeugend, dass SMEs wegen knapper Ressourcen besonders sensible Architekturentscheidungen brauchen. Aber methodisch bleibt “SME-relevant” noch etwas unscharf.
+  - Absicherung: SME-Kontext stärker operationalisieren, etwa über drei explizite Design Constraints:
+      - Budget-/Token-Sensitivität 
+      - geringe Fehlertoleranz ohne Spezialteam
+      - geringe Wartungs- und Governance-Kapazität
+  - Dann wird klarer, warum dein Framework nicht bloß “allgemeines orchestration framework + SME als Kulisse” ist.
+
+07 Die Task-Archetypen wirken plausibel, aber noch nicht theoriebasiert genug abgegrenzt
+  - Die sieben vorläufigen Archetypen sind sinnvoll. Das Risiko ist aber, dass sie später wie eine pragmatische Liste statt wie eine systematisch hergeleitete Taxonomie wirken.
+  - bsicherung: Du brauchst klare Taxonomie-Regeln:
+      - Herleitungslogik aus Literatur
+      - Inclusion/Exclusion-Kriterien 
+      - Abgrenzung zwischen Archetyp und Instanz
+      - Entscheidung, ob du eine echte Taxonomie, Typologie oder heuristische Klassifikation baust
+
+08 Output Quality via LLM-as-a-Judge bleibt heikel
+  - Absicherung:
+LLM-Judging nie allein verwenden.
+Besser:  wo möglich objektive Ground-Truth-Metriken bei offenen Antworten Rubrics + menschliche Stichprobenprüfung. Interrater-Abgleich zumindest auf Teilmenge
