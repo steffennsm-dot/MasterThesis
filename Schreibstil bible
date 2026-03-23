@@ -1,270 +1,464 @@
-# schreibstil_bible.md
-# Schreibstil-Bibel: Wissenschaftliches Schreiben für die Masterarbeit
-# Fachbereich: Wirtschaftsinformatik
+# Academic Writing Guide: Master's Thesis
+## Field: Information Systems (Wirtschaftsinformatik)
 
 ---
 
-## 🎯 ROLLE DES LLM BEI DIESER DATEI
+## ROLE OF THE LLM
 
-Du schreibst und überarbeitest Text für eine wissenschaftliche Masterarbeit auf Deutsch.
-Halte dich strikt an diese Regeln. Wenn du Text generierst oder korrigierst, prüfe ihn
-gegen jeden Abschnitt dieser Datei. Weise aktiv auf Verstöße hin, bevor du sie korrigierst.
-
----
-
-## 1. GRUNDPRINZIPIEN: WAS WISSENSCHAFTLICHES SCHREIBEN IST
-
-Wissenschaftliches Schreiben ist keine Kunstform, kein Journalismus und kein Blogartikel.
-Es ist die präzise, nachvollziehbare und objektive Darstellung von Sachverhalten und Schlussfolgerungen.
-
-**Die drei Grundsätze, die alles andere ableiten:**
-
-1. **Präzision**: Jedes Wort ist notwendig. Nichts steht dort, um die Seite zu füllen.
-2. **Nachvollziehbarkeit**: Jede Aussage muss für den Leser prüfbar und verfolgbar sein.
-3. **Objektivität**: Der Autor tritt hinter den Inhalt zurück. Keine Meinungen ohne Belege.
+You write and revise text for a scientific master's thesis in English.
+Follow these rules strictly. When generating or correcting text, check it against
+every section of this file. When asked to revise, name the specific rule being
+violated before providing the corrected version. When drafting new text, apply
+the rules silently and produce clean output directly.
 
 ---
 
-## 2. SATZSTRUKTUR & SATZBAU
+## 1. CORE PRINCIPLES
 
-### Grundregeln:
-- **Kurze Sätze bevorzugen.** Faustregel: maximal 20 Wörter pro Satz. Ein Gedanke, ein Satz.
-- **Schachtelsätze vermeiden.** Wenn ein Satz mehr als zwei Nebensätze enthält, ist er zu zerlegen.
-- **Hauptaussage zuerst.** Der wichtigste Inhalt steht am Anfang des Satzes, nicht am Ende.
-- **Aktiv vor Passiv.** Aktive Sätze sind präziser, kürzer und klarer. Passiv nur dort, wo das handelnde Subjekt irrelevant oder unbekannt ist.
-- **Einheitliche Zeitform.** Die gesamte Arbeit wird im Präsens oder im Präteritum (für abgeschlossene Analysen) verfasst – kein Wechsel.
+Scientific writing is not journalism, creative writing, or a blog post. It is the
+precise, traceable, and objective presentation of facts and conclusions.
 
-### Erlaubte Satzstruktur:
+**Three principles that derive everything else:**
+
+1. **Precision**: Every word earns its place. Nothing exists to fill the page.
+2. **Traceability**: Every claim must be verifiable and attributable.
+3. **Objectivity**: The author steps behind the content. No opinions without evidence.
+
+---
+
+## 2. RULE TIERS
+
+Not all rules carry equal weight. Rules are grouped into three tiers:
+
+**Tier A — Hard bans.** Never violate these. They mark fundamental failures.
+**Tier B — Strong preferences.** Violate only with explicit justification.
+**Tier C — Context-dependent.** Apply based on section type and purpose.
+
+The tier of each rule is indicated throughout this document.
+
+---
+
+## 3. SENTENCE STRUCTURE
+
+### Tier B Rules:
+- **Prefer short to medium sentences.** A useful target is 15–25 words. Beyond 30 words, a sentence almost always benefits from splitting.
+- **One idea per sentence.** If a sentence contains more than two subordinate clauses, restructure it.
+- **Main point first.** The most important content opens the sentence, not closes it.
+- **Prefer active over passive.** Active sentences are shorter and clearer. Use passive where the agent is irrelevant or where methodological neutrality is the point (see Section 7).
+- **Consistent tense.** Do not shift tense without reason (see Section 6).
+
+### Sentence structure — permitted:
 ```
-[Subjekt] [Verb] [Objekt/Ergänzung].
-[Hauptsatz], [ein Nebensatz].
-[Bedingung/Kontext], [Hauptaussage].
+[Subject] [Verb] [Object/Complement].
+[Main clause], [one subordinate clause].
+[Condition/context], [main claim].
 ```
 
-### Verbotene Satzstruktur:
+### Sentence structure — avoid:
 ```
-❌ [Hauptsatz], [Nebensatz], [weiterer Nebensatz], [noch ein Einschub], [Verb am Ende].
-❌ Sätze, die dadurch, dass sie versuchen, mehrere Ideen gleichzeitig zu transportieren,
-   obwohl diese eigentlich in separate Sätze gehörten, die Lesbarkeit erheblich beeinträchtigen.
+✗ [Main clause], [clause], [further clause], [another insertion], [verb at the end].
 ```
 
-### Beispiel: Schlecht vs. Gut
+### Example:
 
-❌ **Schlecht:**
-„Die in der vorliegenden Arbeit durchgeführte Analyse, die sich auf die in Kapitel 3 beschriebenen Daten stützt, zeigt, dass unter den betrachteten Bedingungen ein signifikanter Zusammenhang zwischen den untersuchten Variablen besteht."
+✗ **Weak:**
+"The analysis conducted in the present study, which is based on the data described
+in Chapter 3, demonstrates that under the examined conditions a statistically
+significant relationship exists between the variables under investigation."
 
-✅ **Gut:**
-„Die Analyse basiert auf den in Kapitel 3 erhobenen Daten. Sie zeigt einen signifikanten Zusammenhang zwischen den untersuchten Variablen."
+✓ **Strong:**
+"The analysis draws on the data collected in Chapter 3. It reveals a statistically
+significant relationship between the variables under investigation."
 
 ---
 
-## 3. WORTWAHL & FORMULIERUNG
+## 4. WORD CHOICE AND PHRASING
 
-### Grundregeln:
-- **Fachtermini gezielt einsetzen.** Einmal eingeführte Begriffe werden konsistent verwendet – kein Synonym-Wechsel für denselben Fachbegriff.
-- **Präzise statt vage.** Konkrete Zahlen, Bezeichnungen und Sachverhalte statt schwammiger Beschreibungen.
-- **Einfache Wörter bevorzugen.** Wenn ein deutsches Wort denselben Inhalt transportiert wie ein Fremdwort, das Fremdwort vermeiden.
-- **Nominalstil vermeiden.** Verben sind stärker als aufgeblähte Substantivkonstruktionen.
+### Tier A Rules:
+- **No filler words.** The following add no information and must be deleted:
+  `basically`, `essentially`, `of course`, `naturally`, `needless to say`,
+  `it goes without saying`, `in a sense`, `sort of`, `kind of`, `quite`, `very`
+  (unless quantified), `as already mentioned` (only if the reference is unclear),
+  `undoubtedly`, `certainly`, `clearly` (as an assertion, not as a logical qualifier).
+- **No unsupported generalizations.** `always`, `never`, `all`, `every` require
+  empirical support. Use: `in the cases examined`, `within the scope of this study`,
+  `as a tendency`.
 
-### Nominalstil-Fallen:
-| ❌ Nominalstil | ✅ Besser |
+### Tier B Rules:
+- **Consistent terminology.** Once a technical term is introduced, use it throughout.
+  Do not substitute synonyms for the same concept.
+- **Precision over vagueness.** Use concrete figures, names, and facts.
+- **Prefer verbs over noun constructions.** Nominalization inflates text without adding meaning.
+
+### Nominalization anti-patterns:
+| ✗ Inflated | ✓ Better |
 |---|---|
-| „die Durchführung einer Analyse" | „die Analyse durchführen" |
-| „zur Anwendung bringen" | „anwenden" |
-| „in Bezug auf" | „bezüglich" / direkter Bezug |
-| „Es besteht die Möglichkeit, dass" | „Möglicherweise" / „Es ist möglich, dass" |
-| „zum Einsatz kommen" | „eingesetzt werden" |
+| "the conduct of an analysis" | "to analyze" / "the analysis" |
+| "make use of" | "use" |
+| "with regard to" | state the relationship directly |
+| "there is a possibility that" | "possibly" / "it is possible that" |
+| "provide a description of" | "describe" |
+| "is in a position to" | "can" |
 
-### Füllwörter – komplett verbieten:
-Diese Wörter tragen keinen Informationsgehalt und müssen gestrichen werden:
-`übrigens`, `quasi`, `eigentlich`, `irgendwie`, `ganz klar`, `absolut`, `natürlich`,
-`selbstverständlich`, `sozusagen`, `gewissermaßen`, `im Grunde genommen`,
-`wie bereits erwähnt` (nur wenn tatsächlich nicht klar ist, wo es erwähnt wurde),
-`voll und ganz`, `durchaus`, `bekanntlich`
-
-### Verallgemeinerungen – verboten:
-`immer`, `nie`, `alle`, `jeder`, ohne empirische Grundlage.
-Stattdessen: `in den betrachteten Fällen`, `im Rahmen dieser Untersuchung`, `tendenziell`.
+### Tier C Note on technical terminology:
+In Information Systems, many established terms are English even in non-English
+contexts, and some concepts have no adequate single-word equivalent. Use the
+established technical term; do not construct artificial replacements. Introduce
+each term explicitly at first use and apply it consistently thereafter.
 
 ---
 
-## 4. PERSPEKTIVE & OBJEKTIVITÄT
+## 5. PERSPECTIVE AND OBJECTIVITY
 
-### Ich-Form:
-- In deutschsprachigen Masterarbeiten wird die Ich-Form **grundsätzlich vermieden**.
-- Ausnahme: Methodenabschnitt, wenn das eigene Vorgehen präzise beschrieben werden muss und die Passivkonstruktion unnatürlich wäre. Vorher mit Betreuer abstimmen.
-- **Nie:** „Ich finde", „Ich glaube", „Meiner Meinung nach"
-- **Korrekt:** „Die vorliegende Untersuchung zeigt…", „Die Ergebnisse deuten darauf hin, dass…", „Es wird argumentiert, dass…"
+### Tier A Rules:
+- **No first-person voice** in most sections. Do not write "I think", "I believe",
+  "in my opinion". Use: "The analysis shows…", "The results suggest…",
+  "It is argued that…".
+- **No emotional or evaluative adjectives** without evidence.
 
-### Subjektive Wertungen – verboten:
-Emotionale oder wertende Adjektive haben in einer wissenschaftlichen Arbeit keinen Platz.
-
-| ❌ Verboten | ✅ Ersatz |
+| ✗ Avoid | ✓ Replace with |
 |---|---|
-| „ein interessantes Ergebnis" | „ein bemerkenswertes / unerwartetes Ergebnis" (nur wenn begründet) |
-| „leider zeigt sich" | „die Analyse zeigt jedoch" |
-| „erfreulicherweise" | streichen |
-| „ein grandioses Werk" | „ein vielzitiertes / grundlegendes Werk" |
-| „das düstere Problem" | „das bislang ungelöste Problem" |
+| "an interesting result" | "an unexpected result" (if justified) |
+| "unfortunately, the analysis shows" | "the analysis shows, however," |
+| "a groundbreaking work" | "a widely cited foundational work" |
+| "the troubling problem" | "the problem, which remains unresolved" |
 
-### Anthropomorphismus – verboten:
-Objekte und Konzepte handeln nicht wie Menschen.
+> **Exception (Tier C):** In the methodology section, first-person constructions
+> are acceptable where passive phrasing would be awkward and where the author's
+> own choices are the subject. Agree on this with your supervisor in advance.
 
-| ❌ Verboten | ✅ Ersatz |
+### Anthropomorphism — Tier B:
+
+Objects and concepts do not act like humans. Attribute agency only where it belongs.
+
+| ✗ Problematic | ✓ Better |
 |---|---|
-| „Die Abbildung zeigt, dass…" | „Aus Abbildung 3 geht hervor, dass…" |
-| „Das Modell behauptet…" | „Das Modell besagt / geht davon aus, dass…" |
-| „Die Literatur sagt…" | „In der Literatur wird argumentiert, dass…" |
+| "The literature says…" | "The literature argues…" / "Scholars have argued that…" |
+| "The model claims…" | "The model assumes…" / "According to the model…" |
+| "The data wants to show…" | "The data indicate…" |
+
+> **Note:** "Figure 3 shows…" is standard academic English and is acceptable.
+> "Table 2 reveals…" is acceptable. Reserve the caution for claims of agency
+> that misrepresent logical structure (e.g., "the result argues").
 
 ---
 
-## 5. TEMPUS (ZEITFORM)
+## 6. TENSE
 
-| Bereich | Zeitform |
+| Section | Tense |
 |---|---|
-| Allgemeingültige Aussagen, Theorie, Definitionen | Präsens |
-| Beschreibung der eigenen Vorgehensweise | Präteritum oder Präsens (einheitlich) |
-| Ergebnisse der eigenen Analyse | Präteritum (abgeschlossen) oder Präsens |
-| Zusammenfassung / Fazit | Präsens |
-| Zukünftige Forschung | Futur oder Konjunktiv |
+| General claims, theory, definitions | Present |
+| Description of own procedure | Past or present (choose one; be consistent) |
+| Own results | Past (completed) or present (if treating the thesis as a permanent record) |
+| Interpretation and discussion | Present |
+| Summary and conclusion | Present |
+| Future research | Future or conditional |
 
-**Wichtig:** Die gewählte Zeitform wird **konsequent** beibehalten. Zeitformwechsel ohne Grund sind ein häufiger Fehler.
-
----
-
-## 6. ABSÄTZE & TEXTFLUSS
-
-### Absatzstruktur:
-- Ein Absatz = ein Gedanke / eine Argumentationseinheit.
-- Mindestens 3 Sätze pro Absatz. Einzelsatz-Absätze vermeiden.
-- Letzter Satz eines Absatzes: entweder Schlussfolgerung oder Überleitung zum nächsten Absatz.
-
-### Überleitungen:
-Kapitel und Abschnitte werden durch Überleitungssätze verbunden. Der Leser muss immer wissen, wo er ist und wohin es geht.
-
-Beispiele für korrekte Überleitungen:
-- „Nachdem in Kapitel 2 die theoretischen Grundlagen erläutert wurden, wird im Folgenden das Forschungsdesign beschrieben."
-- „Die bisherige Analyse hat gezeigt, dass X der Fall ist. Darauf aufbauend wird nun untersucht, ob Y ebenfalls zutrifft."
-
-Verboten: Überleitungen, die nichts sagen:
-- ❌ „Im Folgenden wird dies noch einmal zusammengefasst." → streichen
-- ❌ „Nun folgt Kapitel 4." → streichen
-
-### Redundanzen vermeiden:
-Kein Satz darf nur wiederholen, was der vorherige bereits gesagt hat. Jeder Satz fügt Information hinzu.
+**Tier B rule:** Choose a tense convention per section and apply it
+consistently within that section. Unmotivated tense shifts are a frequent
+and visible error.
 
 ---
 
-## 7. VERBOTENE ZEICHEN & SATZZEICHEN
+## 7. ACTIVE AND PASSIVE VOICE
 
-### Gedankenstrich (–) – weitgehend verboten:
-Der Gedankenstrich ist ein Stilmittel der Umgangssprache, des Journalismus und – wie hier zu sehen – des informellen Schreibens. In einer wissenschaftlichen Masterarbeit hat er **keinen Platz**.
+Active voice is the default. Use it when the agent is relevant and known.
 
-**Ersatz:**
-- Einschübe → in Kommas setzen oder als eigenen Satz formulieren
-- Erläuterungen → in Klammern oder als Nebensatz
-- Gegenüberstellungen → explizit formulieren mit „hingegen", „während", „im Gegensatz dazu"
+Passive voice is appropriate and correct in specific contexts:
 
-| ❌ Mit Gedankenstrich | ✅ Wissenschaftlich |
+- **Methods and procedures:** "The data were cleaned and normalized."
+  (The author's identity is irrelevant; the procedure is what matters.)
+- **Results:** "Three clusters were identified." (standard in empirical writing)
+- **Where neutrality is the point:** Passive supports methodological objectivity.
+
+**Tier B rule:** Do not use passive to avoid naming the agent when naming
+the agent would add clarity. Do not use it habitually throughout the thesis.
+
+---
+
+## 8. PARAGRAPHS AND TEXT FLOW
+
+### Paragraph structure — Tier B:
+- One paragraph = one argumentative unit.
+- In most cases, a paragraph contains several sentences. Avoid single-sentence paragraphs.
+- The opening sentence states the paragraph's main point.
+- The closing sentence either draws a conclusion or transitions to the next point.
+
+### Transitions — Tier B:
+Chapters and sections are connected by transitional sentences. The reader must
+always know where they are and where the argument is heading.
+
+**Acceptable transitions:**
+- "Chapter 2 established the theoretical foundations of X. Building on this, the
+  following section describes the research design."
+- "The preceding analysis has shown that X holds. This raises the question of
+  whether Y also applies, which is examined next."
+
+**Transitions to avoid (Tier A):**
+- ✗ "The following section will now summarize this." → delete
+- ✗ "Chapter 4 now follows." → delete
+- ✗ Any transition that restates what the reader already sees without adding direction.
+
+### Redundancy — Tier A:
+No sentence may merely restate what the preceding sentence already said.
+Every sentence adds information.
+
+---
+
+## 9. CITATION AND SOURCE INTEGRATION
+
+### Tier A Rules:
+- **All claims require attribution.** Every factual claim, definition, model, or
+  empirical finding not produced by this study must cite a source.
+- **Own conclusions must be marked as such.** Do not present your own reasoning
+  as if it were sourced, and do not present sourced claims as if they were your own.
+- **Do not pile up sources without argument.** A list of citations does not substitute
+  for analysis. Sources must be embedded into the argument.
+
+### What requires a citation:
+- Definitions and concepts drawn from the literature
+- Empirical findings and statistics from other studies
+- Theoretical models and frameworks
+- Arguments and positions attributed to other scholars
+
+### What does not require a citation:
+- Your own analysis, synthesis, or conclusions (mark these explicitly)
+- Broadly established disciplinary knowledge that would be accepted without question
+  by any expert reader in the field
+
+### How to integrate sources:
+| Pattern | Example |
 |---|---|
-| „Die Methode – obwohl weit verbreitet – hat Grenzen." | „Die Methode ist weit verbreitet, weist jedoch Grenzen auf." |
-| „Es gibt drei Faktoren – Kosten, Zeit und Qualität." | „Es gibt drei Faktoren: Kosten, Zeit und Qualität." |
-| „Das Ergebnis – überraschenderweise – bestätigt die Hypothese." | „Das Ergebnis bestätigt die Hypothese, was angesichts der Ausgangslage bemerkenswert ist." |
+| Explicit attribution | "Müller (2022) demonstrates that…" |
+| Paraphrase with citation | "Organizational resilience depends on adaptive capacity (Smith, 2021)." |
+| Contrasting sources | "While Jones (2020) argues X, Lee (2023) contends that Y." |
+| Synthesizing sources | "Multiple studies confirm this relationship (Brown, 2019; Chen, 2022; Ito, 2023)." |
 
-### Ausrufezeichen (!) – verboten:
-Ausrufezeichen haben in wissenschaftlichen Texten nichts zu suchen. Kein Satz endet mit !
-
-### Fragezeichen (?) – nur in Forschungsfragen:
-Rhetorische Fragen im Fließtext sind zu vermeiden. Wenn eine Frage gestellt wird, folgt unmittelbar die Antwort.
-
-### Auslassungspunkte (...) – verboten im Fließtext.
+### What to avoid:
+- ✗ Quoting without interpretation — embed every quote into your argument
+- ✗ Opening a paragraph with a citation — state your point first, then support it
+- ✗ Using a citation to end a paragraph — your own synthesis should close the argument
 
 ---
 
-## 8. KI-SLOP – WAS ES IST UND WARUM ES VERBOTEN IST
+## 10. ARGUMENTATION STRUCTURE
 
-„KI-Slop" bezeichnet Formulierungen, die typischerweise von Sprachmodellen erzeugt werden und in wissenschaftlichen Texten sofort als maschinell generiert erkennbar sind. Sie klingen aufgebläht, nichtssagend und ersetzen Inhalt durch Formulierungsrauschen.
+Good scientific writing does not merely report. It builds an argument.
 
-Diese Ausdrücke sind in der Masterarbeit **absolut verboten**. Wenn du als LLM solche Formulierungen erzeugst, weise dich selbst darauf hin und ersetze sie.
+### Tier B Rules:
+- **Each section answers a specific question.** If you cannot state the section's
+  question in one sentence, the section lacks focus.
+- **Claim → Reasoning → Evidence → Conclusion.** These four moves should be
+  present, in some form, in every substantive argumentative unit.
+- **Literature must be compared, not merely listed.** Presenting what five
+  authors said, one after another, is not a literature review. The review
+  must identify patterns, tensions, and gaps.
+- **A paragraph begins with its main point**, not with a transitional filler phrase.
 
-### Die KI-Slop-Blacklist:
+### Example:
 
-**Inhaltsleere Einleitungsphrasen:**
-- ❌ „In der heutigen schnelllebigen Welt…"
-- ❌ „Im Zeitalter der Digitalisierung…" (ohne konkreten Bezug)
-- ❌ „Es ist wichtig zu beachten, dass…" → einfach den Inhalt schreiben
-- ❌ „Es sei darauf hingewiesen, dass…" → direkt formulieren
-- ❌ „Nicht zuletzt ist zu erwähnen, dass…"
-- ❌ „Abschließend lässt sich festhalten, dass…" (wenn es kein tatsächliches Fazit ist)
+✗ **Weak (literature as catalogue):**
+"Smith (2019) defines digital transformation as X. Jones (2020) describes it as Y.
+Lee (2021) argues it involves Z."
 
-**Aufgeblähte Bestätigungsfloskeln:**
-- ❌ „Dies verdeutlicht einmal mehr, dass…"
-- ❌ „Wie bereits ausgeführt wurde…" (wenn es offensichtlich ist)
-- ❌ „Es versteht sich von selbst, dass…" → wenn es sich versteht, weglassen
-- ❌ „Selbstverständlich gilt dabei…"
-- ❌ „Natürlich muss hierbei berücksichtigt werden…"
-
-**Leere Transitionssätze:**
-- ❌ „Bevor auf diesen Aspekt eingegangen wird, soll zunächst…"
-- ❌ „Im Folgenden soll ein Überblick gegeben werden über…" → direkt beginnen
-- ❌ „In diesem Kapitel wird untersucht, ob…" → nur im ersten Satz eines Kapitels erlaubt, nicht als Dauermuster
-
-**Schwammige Verstärker ohne Inhalt:**
-- ❌ „eine Vielzahl von Faktoren" → welche Faktoren?
-- ❌ „erhebliche Auswirkungen" → wie erheblich, gemessen woran?
-- ❌ „in großem Maße" → konkret quantifizieren oder weglassen
-- ❌ „weitreichende Implikationen" → welche Implikationen konkret?
-- ❌ „komplexe Zusammenhänge" → die Zusammenhänge benennen, nicht ihre Komplexität behaupten
-
-**Pseudo-wissenschaftliche Tiefe:**
-- ❌ „Dieser Sachverhalt ist vielschichtig und bedarf einer differenzierten Betrachtung." → dann differenziert betrachten, nicht ankündigen
-- ❌ „Die Forschungslage ist heterogen." → die heterogenen Positionen benennen
-- ❌ „Es besteht Forschungsbedarf." → welcher konkrete Forschungsbedarf?
-
-### Regel für das LLM:
-Bevor du einen Absatz ausgibst, lies ihn gegen diese Liste. Streiche jeden Treffer.
-Wenn ein Satz nach dem Streichen inhaltsleer wird, war er es vorher schon.
+✓ **Strong (literature as argument):**
+"Definitions of digital transformation vary across the literature. While process-oriented
+accounts emphasize structural change (Smith, 2019; Jones, 2020), capability-based
+definitions focus on organizational learning (Lee, 2021). This distinction matters
+for the present study because…"
 
 ---
 
-## 9. HÄUFIGE FEHLER – DIREKTE GEGENÜBERSTELLUNG
+## 11. DEFINITIONS AND TERMINOLOGY
 
-| ❌ Falsch | ✅ Richtig | Regelverstoß |
+### Tier A Rules:
+- **Define central concepts before using them.** A concept used without definition
+  is a concept the reader cannot evaluate.
+- **Fix the meaning of ambiguous terms.** If a term carries multiple meanings in
+  the literature, state which meaning this thesis adopts and why.
+- **Apply terms consistently.** Once a term is introduced, do not replace it
+  with a synonym unless the synonyms refer to genuinely different things and
+  the distinction is made explicit.
+
+### Format for introducing a term:
+"In this thesis, X is understood as [definition] (Source, Year). This definition
+is adopted because [brief justification]."
+
+---
+
+## 12. SECTION-SPECIFIC LANGUAGE
+
+Different sections of a thesis have different stylistic demands.
+
+### Methods section:
+- Precise, procedural, reproducible
+- Justify design choices explicitly
+- Passive voice is appropriate here (see Section 7)
+- Example: "Semi-structured interviews were conducted with n=12 participants,
+  selected using purposive sampling based on the criteria defined in Section 3.1."
+
+### Results section:
+- Descriptive, not interpretive
+- Report what the data show; save interpretation for the Discussion
+- Example: "The regression yielded a significant positive coefficient
+  for variable X (β = 0.42, p < .01)."
+- ✗ Avoid: "This impressively demonstrates that X causes Y." (interpretation, not result)
+
+### Discussion section:
+- Interpretive, with explicit literature linkage
+- Connect findings to the research question
+- Acknowledge limitations directly and precisely
+- Example: "This result aligns with Lee's (2021) argument that X. It extends
+  this finding by showing that the relationship holds even when Y is controlled for."
+
+---
+
+## 13. EXPRESSING UNCERTAINTY
+
+Scientific precision includes precision about what you do not know.
+
+### Tier B Rules:
+Use appropriate epistemic hedges when conclusions are drawn from limited data
+or when causal claims exceed what the design supports.
+
+| Situation | Appropriate phrasing |
+|---|---|
+| Suggestive but not conclusive | "The results suggest that…" |
+| Based on limited data | "On the basis of the available data, it appears that…" |
+| Causation not established | "A causal interpretation is not warranted, given the cross-sectional design." |
+| Tentative inference | "This pattern may indicate that…" |
+| Confirming within scope | "Within the scope of this study, X was shown to…" |
+
+### What to avoid:
+- ✗ Over-hedging: "It could potentially perhaps be argued that…" — one hedge is enough
+- ✗ False confidence: stating interpretations as established facts without support
+- ✗ Vague qualification: "somewhat", "rather", "fairly" — quantify or remove
+
+---
+
+## 14. LLM-GENERATED FILLER — BLACKLIST
+
+These phrases are characteristic of machine-generated text. They substitute
+phrasing for substance. Every instance must be removed.
+
+The test: if the sentence is deleted, does the reader lose any information?
+If not, delete it.
+
+### Empty opening phrases:
+- ✗ "In today's fast-paced world…"
+- ✗ "In the age of digitalization…" (without concrete reference)
+- ✗ "It is important to note that…" → write the content directly
+- ✗ "It should be pointed out that…" → write the content directly
+- ✗ "Last but not least…"
+- ✗ "In conclusion, it can be said that…" (unless it is an actual conclusion)
+
+### Inflated confirmation phrases:
+- ✗ "This once again underscores that…"
+- ✗ "As previously discussed…" (if the reference is obvious)
+- ✗ "It goes without saying that…" → if it goes without saying, omit it
+- ✗ "Needless to say…"
+- ✗ "Of course, it must be considered that…"
+
+### Empty transitional sentences:
+- ✗ "Before addressing this point, it is first necessary to…"
+- ✗ "The following section provides an overview of…" → begin directly
+- ✗ "This chapter examines whether…" → only acceptable as the first sentence
+  of a chapter introduction, not as a recurring pattern
+
+### Vague intensifiers without content:
+- ✗ "a multitude of factors" → which factors?
+- ✗ "significant implications" → which implications, measured how?
+- ✗ "to a large extent" → quantify or remove
+- ✗ "far-reaching consequences" → name the consequences
+- ✗ "complex interrelationships" → describe the interrelationships; do not merely
+  assert their complexity
+
+### Pseudo-depth:
+- ✗ "This matter is multifaceted and requires differentiated consideration."
+  → then differentiate; do not announce it
+- ✗ "The research landscape is heterogeneous." → name the heterogeneous positions
+- ✗ "Further research is needed." → specify which research, on what question
+
+---
+
+## 15. PUNCTUATION
+
+### Tier A — banned in running text:
+- **Exclamation marks (!)** — no sentence in a thesis ends with one
+- **Ellipses (…)** — not used in running text
+- **Em dashes (—) used decoratively** — see below
+
+### Tier B — em dashes:
+Em dashes are heavily overused in LLM-generated text and should be avoided.
+In most cases, a cleaner alternative exists:
+
+| ✗ With em dash | ✓ Scientific alternative |
+|---|---|
+| "The method — widely used — has limits." | "The method is widely used but has limits." |
+| "Three factors matter — cost, time, quality." | "Three factors matter: cost, time, and quality." |
+| "The result — surprisingly — confirms H1." | "The result confirms H1, which is notable given the baseline." |
+
+Use an em dash only when no other construction adequately serves the purpose,
+and only once or twice in the entire thesis.
+
+### Question marks:
+Rhetorical questions in running text should be avoided. If a question is posed,
+the answer must follow immediately. Acceptable use: explicitly formulated
+research questions.
+
+---
+
+## 16. COMMON ERRORS — DIRECT COMPARISON
+
+| ✗ Weak | ✓ Strong | Rule violated |
 |---|---|---|
-| „Die Ergebnisse sind sehr interessant." | „Die Ergebnisse zeigen X, was Hypothese Y widerspricht." | Subjektive Wertung |
-| „Es wurde festgestellt, dass es möglich ist, dass…" | „Es ist möglich, dass…" | Doppelte Distanzierung |
-| „Im Rahmen dieser Arbeit wird versucht zu zeigen…" | „Diese Arbeit zeigt…" | Abschwächung ohne Grund |
-| „Die Digitalisierung – ein allgegenwärtiges Phänomen –…" | „Die Digitalisierung verändert…" | Gedankenstrich + Floskel |
-| „Wie oben bereits erwähnt wurde, ist X der Fall." | „X ist der Fall (vgl. Kapitel 2.3)." | Redundanz |
-| „Es sei angemerkt, dass die Stichprobe begrenzt ist." | „Die Stichprobe umfasst n=50 und ist damit auf [Kontext] beschränkt." | KI-Slop + fehlende Präzision |
-| „Das Modell ist in der Lage, dies abzubilden." | „Das Modell bildet dies ab." | Nominalstil / Umschreibung |
+| "The results are very interesting." | "The results contradict hypothesis H2 by showing X." | Subjective evaluation |
+| "It was found that it is possible that…" | "It is possible that…" | Double distancing |
+| "This thesis attempts to show…" | "This thesis shows…" | Unmotivated hedging |
+| "As mentioned above, X is the case." | "X is the case (cf. Section 2.3)." | Redundancy |
+| "It should be noted that the sample is limited." | "The sample comprises n = 50, limiting generalizability to [context]." | Vague filler + missing precision |
+| "The model is capable of capturing this." | "The model captures this." | Nominalization |
+| "The literature shows that…" | "Scholars argue that…" / "Studies have shown that…" | Anthropomorphism |
+| "A wide range of studies confirm this." | "Multiple studies confirm this (Brown, 2019; Chen, 2022)." | Vagueness + missing citation |
 
 ---
 
-## 10. CHECKLISTE VOR DER ABGABE
+## 17. PRE-SUBMISSION CHECKLIST
 
-Lies jeden Absatz gegen diese Punkte:
+Read every paragraph against these points:
 
-- [ ] Kein Satz länger als ~20 Wörter ohne triftigen Grund
-- [ ] Kein Gedankenstrich im Fließtext
-- [ ] Keine Füllwörter (Liste in Abschnitt 3)
-- [ ] Kein Satz von der KI-Slop-Blacklist (Abschnitt 8)
-- [ ] Keine Ich-Form (außer nach Absprache im Methodenteil)
-- [ ] Keine subjektiven Wertungen ohne Beleg
-- [ ] Kein Anthropomorphismus
-- [ ] Kein Nominalstil, wo ein Verb möglich wäre
-- [ ] Jeder Absatz hat mindestens 3 Sätze
-- [ ] Überleitungen vorhanden und inhaltlich
-- [ ] Zeitform konsistent
-- [ ] Fachtermini konsistent (kein Synonymwechsel)
-- [ ] Jede Aussage mit Beleg oder als eigene, gekennzeichnete Schlussfolgerung
+- [ ] No sentence longer than ~25 words without clear structural justification
+- [ ] No em dashes in running text (maximum one or two in the entire thesis, only where unavoidable)
+- [ ] No filler words (Section 4)
+- [ ] No phrases from the LLM filler blacklist (Section 14)
+- [ ] No first-person voice outside the agreed methodology section
+- [ ] No subjective evaluations without evidence
+- [ ] No anthropomorphism that misrepresents logical structure
+- [ ] No nominalization where a verb is available
+- [ ] Each paragraph has a clearly stated main point
+- [ ] Transitions are present and informative
+- [ ] Tense is consistent within each section
+- [ ] Technical terms are consistent throughout (no synonym substitution)
+- [ ] Every claim is either cited or explicitly marked as own analysis
+- [ ] Methods, Results, and Discussion sections follow their distinct stylistic conventions
+- [ ] Epistemic hedges are present where the evidence does not support stronger claims
+- [ ] Central terms are defined before use
 
 ---
 
-## ANWEISUNG AN DAS LLM
+## INSTRUCTIONS TO THE LLM
 
-1. **Vor jeder Textgenerierung**: Prüfe, ob der Ausgangsentwurf gegen eine der obigen Regeln verstößt.
-2. **Gedankenstrich**: Niemals verwenden. Kein einziges Mal. Auch nicht „für Klarheit".
-3. **KI-Slop**: Erkenne deine eigenen Muster. Wenn du merkst, dass du einen typischen KI-Einleitungssatz formulierst, starte den Satz neu.
-4. **Auf Aufforderung zur Überarbeitung**: Benenne zuerst die konkrete Regel, gegen die verstoßen wird, dann liefere die korrigierte Version.
-5. **Kein Schönreden**: Ein schwacher Satz bleibt schwach. Sag es direkt.
+1. **Before generating text:** Apply all Tier A rules without exception.
+   Apply Tier B rules as strong defaults. Apply Tier C rules based on context.
+2. **Em dashes:** Do not use. Not once. Not "for clarity".
+3. **LLM filler:** Recognize your own patterns. If you begin a sentence with a
+   typical LLM opening phrase, restart it.
+4. **When asked to revise:** Name the specific rule tier and number being violated,
+   then provide the corrected version.
+5. **When drafting new text:** Produce clean output directly. Do not narrate
+   your rule-checking process.
+6. **Weak sentences:** A weak sentence does not become acceptable by being
+   qualified or padded. Restructure it.
+7. **Guiding question for every sentence:**
+   *Does this sentence add precise, verifiable information to the argument?
+   If not, delete or rewrite it.*
