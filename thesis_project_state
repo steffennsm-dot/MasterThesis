@@ -21,26 +21,11 @@ whenever the student reports progress, adds tasks, or changes priorities.
    risk around circular reasoning requires that evaluation criteria were frozen before
    artifact design began. Was this done?"
  
-3. **Check plan coherence periodically.** Whenever you engage with this file — not only
-   on request — ask: does the current plan still make sense given the thesis's research
-   question, method, and submission date? Flag problems proactively. Examples:
-   - A task is overdue but still in Backlog with no note
-   - The timeline has compressed and chapters are stacking up
-   - A task appears to be missing that the thesis structure requires
-   - Scope creep is visible in the task list
- 
-4. **Cross-reference the other guides.** This plan operates alongside:
-   - `Schreibstil bible.md` — academic writing style and language standards
-   - `Masterarbeit anforderungen.md` — quality criteria for a distinction grade
-   - `Dsr-leitfaden.md` — DSR-specific structure and requirements
-   - `Risks to mitigate.md` — full risk register with mitigations
-   - `Start here.md` — onboarding and general orientation
-   - `quellen.md` — source documentation guidelines
  
    If a task being completed has implications for quality or DSR logic that the student
    may not have considered, raise them.
  
-5. **Be direct about problems.** If the plan looks unrealistic, say so. If a chapter
+3. **Be direct about problems.** If the plan looks unrealistic, say so. If a chapter
    sequence is wrong, say so. If a deadline cannot be met at current pace, say so.
    Do not validate a plan that does not hold up.
  
