@@ -1,0 +1,113 @@
+# thesis_project_state.md
+# Master's Thesis — Project Plan and Progress Tracker
+# Field: Information Systems (Wirtschaftsinformatik)
+ 
+---
+ 
+## ROLE OF THE LLM
+ 
+This file is the living project plan for the master's thesis. You read and update it
+whenever the student reports progress, adds tasks, or changes priorities.
+ 
+**Your responsibilities with this file:**
+ 
+1. **Keep it current.** Whenever a task status changes, a deadline shifts, or a new
+   task is added, update this file immediately and confirm the change.
+ 
+2. **Gate "Done" against the risk register.** Before moving any task to Done, check
+   `Risks to mitigate.md` for risks that apply to that task. Confirm explicitly that
+   the relevant mitigations were addressed. If they were not, flag this before accepting
+   the status change. Example: "I can mark 'Define meta-requirements' as Done, but the
+   risk around circular reasoning requires that evaluation criteria were frozen before
+   artifact design began. Was this done?"
+ 
+3. **Check plan coherence periodically.** Whenever you engage with this file — not only
+   on request — ask: does the current plan still make sense given the thesis's research
+   question, method, and submission date? Flag problems proactively. Examples:
+   - A task is overdue but still in Backlog with no note
+   - The timeline has compressed and chapters are stacking up
+   - A task appears to be missing that the thesis structure requires
+   - Scope creep is visible in the task list
+ 
+4. **Cross-reference the other guides.** This plan operates alongside:
+   - `Schreibstil bible.md` — academic writing style and language standards
+   - `Masterarbeit anforderungen.md` — quality criteria for a distinction grade
+   - `Dsr-leitfaden.md` — DSR-specific structure and requirements
+   - `Risks to mitigate.md` — full risk register with mitigations
+   - `Start here.md` — onboarding and general orientation
+   - `quellen.md` — source documentation guidelines
+ 
+   If a task being completed has implications for quality or DSR logic that the student
+   may not have considered, raise them.
+ 
+5. **Be direct about problems.** If the plan looks unrealistic, say so. If a chapter
+   sequence is wrong, say so. If a deadline cannot be met at current pace, say so.
+   Do not validate a plan that does not hold up.
+ 
+---
+ 
+## Project Overview
+ 
+- Field: Information Systems (Wirtschaftsinformatik)
+- Method: Design Science Research (DSR)
+- Submission target: —
+- Last updated: 2026-03-25
+ 
+---
+ 
+## Current Progress
+ 
+- Done: 0 tasks
+- In Progress: 0 tasks
+- Backlog / Review: 0 tasks
+- Overall completion: 0%
+ 
+---
+ 
+## Kanban Board
+ 
+### Done
+| Task | Tag | Completed |
+|---|---|---|
+| — | — | — |
+ 
+### In Progress
+| Task | Tag | Due |
+|---|---|---|
+| — | — | — |
+ 
+### Review
+| Task | Tag | Due |
+|---|---|---|
+| — | — | — |
+ 
+### Backlog
+| Task | Tag | Due |
+|---|---|---|
+| — | — | — |
+ 
+---
+ 
+## Timeline
+ 
+*Not yet defined. Add tasks first, then we can build out the timeline.*
+ 
+---
+ 
+## Notes and Watch Items
+ 
+*Nothing yet.*
+ 
+---
+ 
+## How to Update This File
+ 
+Tell Claude what changed. Examples:
+- "Add task: Write Introduction (Ch. 1), due April 10, tag writing."
+- "Move 'Theoretical background' to Done."
+- "Submission deadline is July 15."
+- "Push artifact iteration 1 to May 8."
+- "Add a note: supervisor feedback received on Ch. 2."
+ 
+Claude will update this file, check relevant risks before confirming Done status,
+and flag any plan coherence issues along the way.
